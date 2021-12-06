@@ -1,4 +1,14 @@
 .login{
+  &__dc3{
+    font-family: $SF-Compact-Rounded-Semibold;
+  }
+  &__dc2{
+    line-height: 1.2;
+  }
+  &__dc1{
+    line-height: 1.29;
+    @extend .fz-14;
+  }
   &__section{
     background-color: #e5e5e5;
     padding-top: 118px;
@@ -20,16 +30,6 @@
     @extend .fz-40;
     @extend .login__dc3;
     margin: 0;
-  }
-  &__dc3{
-    font-family: $SF-Compact-Rounded-Semibold;
-  }
-  &__dc2{
-    line-height: 1.2;
-  }
-  &__dc1{
-    line-height: 1.29;
-    @extend .fz-14;
   }
   &__label{
     color: #4B4B4B;

@@ -1,4 +1,13 @@
 .login{
+  &__dc5{
+    color: #B6B6B6;
+    @extend .fz-16;
+    font-family: $SF-Compact-Rounded-Regular;
+  }
+  &__dc4{
+    $x:48px;
+    line-height: calc(#{$x} - 2px);
+  }
   &__dc3{
     font-family: $SF-Compact-Rounded-Semibold;
   }
@@ -39,9 +48,7 @@
   &__input{
     $x:48px;
     height: #{$x};
-    color: #B6B6B6;
-    @extend .fz-16;
-    font-family: $SF-Compact-Rounded-Regular;
+    @extend .login__dc5;
     padding-left: 16px;
     padding-right: 16px;
     background: #F9F9F9;
@@ -72,12 +79,14 @@
     @extend .login__txt;
   }
   &__btn{
-    $x:48px;
-    line-height: calc(#{$x} - 2px);
+    @extend .login__dc4;
     background: #2BBC13 !important;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-transform: inherit;
     position: relative;
+    .signup__section &{
+      background: #CE4431 !important;
+    }
     &:before{
       $x:4px;
       content: "";
@@ -88,6 +97,9 @@
       bottom: #{$x};
       background: #66DB53;
       border-radius: 500px;
+      .signup__section &{
+        background: #EC6755;
+      }
     }
     span{
       @extend .fz-20;

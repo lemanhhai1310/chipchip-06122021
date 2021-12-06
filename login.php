@@ -37,7 +37,7 @@
                                 </div>
                                 <div class="uk-width-1-1 login__column uk-text-center">
                                     <div class="login__item16">
-                                        <span class="login__txt">Chưa có tài khoản? <a href="">Đăng ký ngay</a></span>
+                                        <span class="login__txt">Chưa có tài khoản? <a href="signup.php">Đăng ký ngay</a></span>
                                     </div>
                                     <div class="login__item16">
                                         <a href="" class="login__forgot">Quên mật khẩu?</a>

@@ -8,7 +8,7 @@
 
                 </div>
                 <div class="uk-width-auto">
-                    <div class="login__box1">
+                    <div class="login__box2">
                         <div class="uk-grid-20 uk-form-stacked" uk-grid>
                             <div class="uk-width-1-1 login__column">
                                 <h1 class="uk-h1 login__title">Đăng ký</h1>

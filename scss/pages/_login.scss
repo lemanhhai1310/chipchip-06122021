@@ -1,0 +1,29 @@
+.login{
+  &__section{
+    background-color: #e5e5e5;
+    padding-top: 118px;
+  }
+  &__logo{
+    $x:40px;
+    left: #{$x};
+    bottom: #{$x};
+  }
+  &__box1{
+    width: 380px;
+  }
+  &__box2{
+    width: 420px;
+  }
+  &__title{
+    color: #2B2B2C;
+    line-height: 1.2;
+    @extend .fz-40;
+    font-family: $SF-Compact-Rounded-Semibold;
+    margin: 0;
+  }
+  &__column{
+    &.uk-grid-margin{
+      margin-top: 24px;
+    }
+  }
+}

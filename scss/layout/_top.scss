@@ -1,1 +1,34 @@
-.top{}
+.top{
+  &__iconBack{
+    width: 44px;
+    height: 47px;
+    display: inline-block;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='52' viewBox='0 0 52 52' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='26' cy='27' r='22' fill='%23F3B004'/%3E%3Cg filter='url(%23filter0_d_248_151977)'%3E%3Ccircle cx='26' cy='24' r='22' fill='%23FFCB14'/%3E%3C/g%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M24.2678 18.7678C25.2441 17.7915 25.2441 16.2085 24.2678 15.2322C23.2915 14.2559 21.7085 14.2559 20.7322 15.2322L13.7322 22.2322C12.7559 23.2085 12.7559 24.7915 13.7322 25.7678L20.7322 32.7678C21.7085 33.7441 23.2915 33.7441 24.2678 32.7678C25.2441 31.7915 25.2441 30.2085 24.2678 29.2322L21.5355 26.5H36.5C37.8807 26.5 39 25.3807 39 24C39 22.6193 37.8807 21.5 36.5 21.5H21.5355L24.2678 18.7678Z' fill='white'/%3E%3Cdefs%3E%3Cfilter id='filter0_d_248_151977' x='0' y='0' width='52' height='52' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='2'/%3E%3CfeGaussianBlur stdDeviation='2'/%3E%3CfeComposite in2='hardAlpha' operator='out'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_248_151977'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_248_151977' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    &:before{
+      content: attr(data-txt);
+      white-space: nowrap;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      $x:24px;
+      left: calc(100% + #{$x});
+      color: #FFFFFF;
+      line-height: 1.5;
+      @extend .fz-32;
+      font-family: $SF-Compact-Rounded-Semibold;
+    }
+  }
+  &__refresh{
+    width: 44px;
+    height: 47px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='52' viewBox='0 0 52 52' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='4' y='5' width='44' height='44' rx='22' fill='%23D2D2D2'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M28.8493 15.2283C29.7118 14.5383 29.8517 13.2797 29.1617 12.4172C28.4716 11.5547 27.213 11.4148 26.3505 12.1048L19.6839 17.4382C19.2094 17.8177 18.9332 18.3923 18.9332 18.9999C18.9332 19.6075 19.2094 20.1821 19.6839 20.5616L26.3505 25.895C27.213 26.585 28.4716 26.4452 29.1617 25.5826C29.8517 24.7201 29.7118 23.4615 28.8493 22.7715L26.6664 21.0251C31.1415 21.3654 34.6666 25.1043 34.6666 29.6666C34.6666 34.453 30.7864 38.3332 26 38.3332C21.2135 38.3332 17.3333 34.453 17.3333 29.6666C17.3333 28.1397 17.7264 26.7107 18.4154 25.469C18.9514 24.5031 18.6029 23.2857 17.6371 22.7498C16.6712 22.2138 15.4538 22.5623 14.9178 23.5282C13.9078 25.3485 13.3333 27.4434 13.3333 29.6666C13.3333 36.6622 19.0044 42.3332 26 42.3332C32.9956 42.3332 38.6666 36.6622 38.6666 29.6666C38.6666 22.8776 33.3257 17.3361 26.6164 17.0146L28.8493 15.2283Z' fill='%23878787'/%3E%3Cg filter='url(%23filter0_d_248_152124)'%3E%3Crect x='4' y='2' width='44' height='44' rx='22' fill='white'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M28.4932 13.7001C29.2479 13.0963 29.3702 11.9951 28.7665 11.2403C28.1627 10.4856 27.0615 10.3633 26.3067 10.967L20.4734 15.6337C20.0583 15.9658 19.8166 16.4686 19.8166 17.0002C19.8166 17.5318 20.0583 18.0346 20.4734 18.3667L26.3067 23.0334C27.0615 23.6372 28.1627 23.5148 28.7665 22.7601C29.3702 22.0054 29.2479 20.9041 28.4932 20.3004L26.5831 18.7723C30.4988 19.0701 33.5834 22.3416 33.5834 26.3336C33.5834 30.5217 30.1882 33.9169 26 33.9169C21.8119 33.9169 18.4167 30.5217 18.4167 26.3336C18.4167 24.9976 18.7607 23.7471 19.3636 22.6607C19.8325 21.8156 19.5276 20.7503 18.6825 20.2813C17.8374 19.8124 16.7721 20.1173 16.3032 20.9624C15.4193 22.5552 14.9167 24.3883 14.9167 26.3336C14.9167 32.4547 19.8789 37.4169 26 37.4169C32.1212 37.4169 37.0834 32.4547 37.0834 26.3336C37.0834 20.3932 32.41 15.5444 26.5394 15.2631L28.4932 13.7001Z' fill='%23878787'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_d_248_152124' x='0' y='0' width='52' height='52' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='2'/%3E%3CfeGaussianBlur stdDeviation='2'/%3E%3CfeComposite in2='hardAlpha' operator='out'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_248_152124'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_248_152124' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A");
+  }
+}

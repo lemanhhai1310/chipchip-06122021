@@ -67,6 +67,35 @@
     &__footer{
       padding: 20px 0;
     }
+    &__image{
+      &__radio{
+
+      }
+      &__txt{
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 8px;
+        display: inline-block;
+        top: 8px;
+        right: 8px;
+        padding: 6px 12px;
+        color: #4B4B4B;
+        line-height: 1.33;
+        @extend .fz-12;
+        font-family: $SF-Compact-Rounded-Semibold;
+        padding-left: 36px;
+        background-image: url("data:image/svg+xml,%3Csvg width='16' height='17' viewBox='0 0 16 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8.20117' r='8' fill='%2366DB53'/%3E%3Cpath d='M5 8.31882L7.08696 10.2012L11 6.20117' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+        background-position: center left 12px;
+        background-repeat: no-repeat;
+        opacity: 0;
+        .bottom__offcanvas__image__radio:checked ~ &{
+          opacity: 1;
+        }
+      }
+      &__box1{
+        border-radius: 12px;
+        cursor: pointer;
+      }
+    }
     &__help{
       &__box1{
         padding: 10px 12px;

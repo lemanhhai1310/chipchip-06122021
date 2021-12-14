@@ -9,7 +9,7 @@
                     <a onclick="dodajAktywne(this)" href="#offcanvas-flip-help" uk-toggle class="bottom__icon bottom__icon--help"></a>
                 </div>
                 <div class="uk-navbar-item">
-                    <a onclick="dodajAktywne(this)" href="javascript:void(0)" uk-toggle class="bottom__icon bottom__icon--image"></a>
+                    <a onclick="dodajAktywne(this)" href="#offcanvas-flip-image" uk-toggle class="bottom__icon bottom__icon--image"></a>
                 </div>
             </div>
         </nav>
@@ -178,3 +178,28 @@
     </div>
 </div>
 <!--/Trợ giúp-->
+
+<!--Hình nền-->
+<div id="offcanvas-flip-image" class="bottom__offcanvas" uk-offcanvas="flip: true; overlay: true">
+    <button class="uk-offcanvas-close bottom__offcanvas__close" type="button" uk-close></button>
+    <div class="uk-offcanvas-bar bottom__offcanvas__bar uk-flex uk-flex-column">
+        <div class="bottom__offcanvas__header bottom__offcanvas__item">
+            <h3 class="uk-h3 bottom__offcanvas__title">Hình nền</h3>
+        </div>
+        <div class="bottom__offcanvas__body bottom__offcanvas__item uk-flex-auto uk-overflow-auto">
+            <?php for ($i=0;$i<=5;$i++): ?>
+            <div class="home__item24 uk-position-relative">
+                <label>
+                    <input class="uk-radio uk-hidden bottom__offcanvas__image__radio" type="radio" name="radio2" <?= ($i==0)?'checked':'' ?>>
+                    <div class="bottom__offcanvas__image__txt uk-position-top-right uk-position-z-index">Hình nền đang chọn</div>
+                    <div class="uk-cover-container bottom__offcanvas__image__box1">
+                        <img src="images/chi-tiet-lop-hoc/Rectangle10.png" alt="" uk-cover="">
+                        <canvas width="382" height="192"></canvas>
+                    </div>
+                </label>
+            </div>
+            <?php endfor; ?>
+        </div>
+    </div>
+</div>
+<!--/Hình nền-->

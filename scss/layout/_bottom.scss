@@ -67,6 +67,45 @@
     &__footer{
       padding: 20px 0;
     }
+    &__help{
+      &__box1{
+        padding: 10px 12px;
+        background: #F7F7F7;
+        border-radius: 10px;
+        color: #2B2B2C;
+        line-height: 1.5;
+        @extend .fz-16;
+        font-family: $SF-Compact-Rounded-Medium;
+      }
+      &__txt{
+        padding-left: 12px;
+        padding-right: 12px;
+        color: #686868;
+        line-height: 1.43;
+        @extend .fz-14;
+      }
+      &__btnSelect{
+        font-family: $SF-Compact-Rounded-Medium;
+        text-transform: inherit;
+        position: relative;
+        background: #F7F7F7 !important;
+        border: 1px solid #F2F2F2 !important;
+        box-sizing: border-box;
+        border-radius: 10px;
+        color: #4B4B4B !important;
+        @extend .fz-16;
+        text-align: left;
+        padding-left: 12px;
+        $x1:44px;
+        line-height: calc(#{$x1} - 2px);
+        .uk-icon{
+          right: 8px;
+          svg{
+
+          }
+        }
+      }
+    }
     &__chat{
       &__content{
         max-width: 83%;

@@ -1176,16 +1176,16 @@ body {
   margin-top: 50px;
 }
 
-.fz-14, .chitietlophoc__boxVideo__signal, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__top__boxProgress__txt {
+.fz-14, .chitietlophoc__boxVideo__signal, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__top__boxProgress__txt, .bottom__offcanvas__help__txt {
   font-size: 14px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-14, .chitietlophoc__boxVideo__signal, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__top__boxProgress__txt {
+  .fz-14, .chitietlophoc__boxVideo__signal, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__top__boxProgress__txt, .bottom__offcanvas__help__txt {
     font-size: calc(14px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-14, .chitietlophoc__boxVideo__signal, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__top__boxProgress__txt {
+  .fz-14, .chitietlophoc__boxVideo__signal, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__top__boxProgress__txt, .bottom__offcanvas__help__txt {
     font-size: 14px !important;
   }
 }
@@ -1204,16 +1204,16 @@ body {
   }
 }
 
-.fz-16, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel__name, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > * {
+.fz-16, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel__name, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1 {
   font-size: 16px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-16, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel__name, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > * {
+  .fz-16, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel__name, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1 {
     font-size: calc(16px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-16, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel__name, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > * {
+  .fz-16, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel__name, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1 {
     font-size: 16px !important;
   }
 }
@@ -1449,6 +1449,37 @@ body {
 }
 .bottom__offcanvas__footer {
   padding: 20px 0;
+}
+.bottom__offcanvas__help__box1 {
+  padding: 10px 12px;
+  background: #F7F7F7;
+  border-radius: 10px;
+  color: #2B2B2C;
+  line-height: 1.5;
+  font-family: "SF Compact Rounded Medium", sans-serif;
+}
+.bottom__offcanvas__help__txt {
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #686868;
+  line-height: 1.43;
+}
+.bottom__offcanvas__help__btnSelect {
+  font-family: "SF Compact Rounded Medium", sans-serif;
+  text-transform: inherit;
+  position: relative;
+  background: #F7F7F7 !important;
+  border: 1px solid #F2F2F2 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  color: #4B4B4B !important;
+  text-align: left;
+  padding-left: 12px;
+  line-height: calc(44px - 2px);
+}
+.bottom__offcanvas__help__btnSelect .uk-icon {
+  right: 8px;
 }
 .bottom__offcanvas__chat__content {
   max-width: 83%;
@@ -1894,6 +1925,14 @@ body {
 .home__panel__btn__default:before {
   background: #FFFFFF;
 }
+.home__panel__btn__send {
+  background-color: #E7AC17 !important;
+  border-color: #E7AC17 !important;
+  color: #FFFFFF !important;
+}
+.home__panel__btn__send:before {
+  background: #FBC60A;
+}
 .home__panel__btn__txt {
   line-height: 1.29;
   font-family: "SF Compact Rounded Semibold", sans-serif;
@@ -1912,6 +1951,13 @@ body {
   width: 10px;
   height: 8px;
   background-image: url("data:image/svg+xml,%3Csvg width='8' height='10' viewBox='0 0 8 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.2 3.41593C8.26667 4.11996 8.26667 5.88004 7.2 6.58407L2.4 9.75221C1.33333 10.4562 5.82479e-08 9.57621 1.19796e-07 8.16814L3.96764e-07 1.83186C4.58313e-07 0.423792 1.33333 -0.456246 2.4 0.247786L7.2 3.41593Z' fill='white'/%3E%3C/svg%3E%0A");
+}
+.home__panel__btn__refresh .home__panel__btn__txt:before {
+  position: relative;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  background-image: url("data:image/svg+xml,%3Csvg width='17' height='16' viewBox='0 0 17 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9.92474 2.1144C10.356 1.76939 10.4259 1.1401 10.0809 0.708838C9.73591 0.277576 9.10662 0.207655 8.67535 0.552664L5.34202 3.21933C5.10481 3.4091 4.96672 3.69642 4.96672 4.0002C4.96672 4.30398 5.10481 4.5913 5.34202 4.78107L8.67535 7.44773C9.10662 7.79274 9.73591 7.72282 10.0809 7.29156C10.4259 6.8603 10.356 6.23101 9.92474 5.886L8.83327 5.01282C11.0708 5.18296 12.8334 7.05241 12.8334 9.33353C12.8334 11.7268 10.8933 13.6669 8.50008 13.6669C6.10685 13.6669 4.16675 11.7268 4.16675 9.33353C4.16675 8.5701 4.36331 7.85558 4.70782 7.23473C4.97579 6.75181 4.80154 6.1431 4.31862 5.87513C3.8357 5.60715 3.22698 5.7814 2.95901 6.26432C2.45397 7.17447 2.16675 8.22196 2.16675 9.33353C2.16675 12.8313 5.00228 15.6669 8.50008 15.6669C11.9979 15.6669 14.8334 12.8313 14.8334 9.33353C14.8334 5.93906 12.1629 3.16831 8.80829 3.00757L9.92474 2.1144Z' fill='white'/%3E%3C/svg%3E%0A");
 }
 .home__panel__btn__inClass .home__panel__btn__txt:before {
   position: relative;

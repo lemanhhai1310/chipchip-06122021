@@ -42,6 +42,11 @@
     .uk-navbar-item{
       min-height: 120px;
     }
+    &.bottom{
+      .uk-navbar-item{
+        min-height: 100px;
+      }
+    }
     &__box1{
       $x:5px;
       padding: #{$x};

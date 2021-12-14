@@ -39,7 +39,9 @@
                             foreach ($data as $k=>$v): ?>
                             <div class="uk-width-1-1">
                                 <div class="chitietlophoc__boxVideo uk-cover-container">
-                                    <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                                    <div>
+                                        <video class="uk-position-center" src="https://yootheme.com/site/images/media/yootheme-pro.mp4" loop muted playsinline uk-video="autoplay: inview"></video>
+                                    </div>
                                     <canvas width="420" height="238"></canvas>
                                     <div class="chitietlophoc__boxVideo__box uk-position-bottom uk-position-small">
                                         <div class="uk-flex-middle uk-grid-small" uk-grid>

@@ -78,7 +78,9 @@
                                             <canvas width="80" height="80"></canvas>
                                         </div>
                                     <?php else: ?>
-                                        <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                                        <div>
+                                            <video class="uk-position-center" src="https://yootheme.com/site/images/media/yootheme-pro.mp4" loop muted playsinline uk-video="autoplay: inview"></video>
+                                        </div>
                                     <?php endif; ?>
                                     <canvas width="420" height="238"></canvas>
                                     <div class="chitietlophoc__boxVideo__box uk-position-bottom uk-position-small">

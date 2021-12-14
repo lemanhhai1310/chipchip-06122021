@@ -9,14 +9,21 @@
             </div>
             <div class="uk-navbar-center">
                 <div class="uk-navbar-item">
-                    <div class="uk-position-relative uk-display-inline-block">
-                        <?php for ($j=0;$j<=4;$j++): ?>
-                            <i class="home__panel__icon home__panel__icon__star-o"></i>
-                        <?php endfor; ?>
-                        <div class="uk-position-cover uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: <?= $percent[array_rand($percent)] ?>%">
-                            <?php for ($j=0;$j<=4;$j++): ?>
-                                <i class="home__panel__icon home__panel__icon__star"></i>
-                            <?php endfor; ?>
+                    <div class="uk-child-width-auto uk-grid-20 uk-flex-middle" uk-grid>
+                        <div>
+                            <img src="images/chi-tiet-lop-hoc/Frame132.png" alt="">
+                        </div>
+                        <div>
+                            <img src="images/chi-tiet-lop-hoc/Frame132.png" alt="">
+                        </div>
+                        <div>
+                            <img src="images/chi-tiet-lop-hoc/Frame135.png" alt="">
+                        </div>
+                        <div>
+                            <img src="images/chi-tiet-lop-hoc/Frame135.png" alt="">
+                        </div>
+                        <div>
+                            <img src="images/chi-tiet-lop-hoc/Frame135.png" alt="">
                         </div>
                     </div>
                 </div>

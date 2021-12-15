@@ -4,7 +4,7 @@
         <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" uk-navbar>
             <div class="uk-navbar-left">
                 <div class="uk-navbar-item">
-                    <a href="" class="top__iconBack" data-txt=""></a>
+                    <a href="." class="top__iconBack" data-txt=""></a>
                 </div>
             </div>
             <div class="uk-navbar-center">

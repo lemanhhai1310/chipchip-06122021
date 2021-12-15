@@ -78,7 +78,7 @@
                 </div>
                 <div class="uk-navbar-right">
                     <div class="uk-navbar-item">
-                        <a href=""><img src="images/Frame11.png" alt=""></a>
+                        <a href="quatang.php"><img src="images/Frame11.png" alt=""></a>
                     </div>
                 </div>
             </nav>

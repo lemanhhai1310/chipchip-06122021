@@ -109,7 +109,7 @@
                                     </div>
                                 </div>
                                 <div class="muagoihoc__item56">
-                                    <a href="" class="login__btn uk-button uk-button-primary uk-width-1-1 uk-border-pill"><span>Thanh toán</span></a>
+                                    <a href="thanhtoan1.php" class="login__btn uk-button uk-button-primary uk-width-1-1 uk-border-pill"><span>Thanh toán</span></a>
                                 </div>
                             </div>
                         </div>

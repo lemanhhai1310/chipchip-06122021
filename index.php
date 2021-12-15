@@ -212,9 +212,9 @@
                                                     <div class="uk-text-center"><a href="" class="home__panel__box__link">Kết quả đánh giá</a></div>
                                                 </div>
                                                 <div class="uk-width-1-1">
-                                                    <button type="button" class="home__panel__btn home__panel__btn__buy uk-width-1-1 uk-button uk-button-default uk-border-pill">
+                                                    <a href="muagoihoc.php" class="home__panel__btn home__panel__btn__buy uk-width-1-1 uk-button uk-button-default uk-border-pill">
                                                         <span class="home__panel__btn__txt">Mua gói học</span>
-                                                    </button>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>

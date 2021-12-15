@@ -24,6 +24,22 @@
   &__width{
     width: 480px;
   }
+  &__back{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: calc(100% + 32px);
+    top: 0;
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.7599 25.0935C12.5066 25.0935 12.2533 25.0002 12.0533 24.8002L3.95992 16.7068C3.57326 16.3202 3.57326 15.6802 3.95992 15.2935L12.0533 7.20016C12.4399 6.81349 13.0799 6.81349 13.4666 7.20016C13.8533 7.58682 13.8533 8.22682 13.4666 8.61349L6.07992 16.0002L13.4666 23.3868C13.8533 23.7735 13.8533 24.4135 13.4666 24.8002C13.2799 25.0002 13.0133 25.0935 12.7599 25.0935Z' fill='%23292D32'/%3E%3Cpath d='M27.3333 17H4.89331C4.34664 17 3.89331 16.5467 3.89331 16C3.89331 15.4533 4.34664 15 4.89331 15H27.3333C27.88 15 28.3333 15.4533 28.3333 16C28.3333 16.5467 27.88 17 27.3333 17Z' fill='%23292D32'/%3E%3C/svg%3E%0A");
+  }
+  &__desc{
+    color: #4B4B4B;
+    line-height: 1.25;
+    @extend .fz-16;
+  }
   &__btn{
     $x:52px;
     line-height: calc(#{$x} - 2px);

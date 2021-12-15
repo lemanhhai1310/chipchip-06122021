@@ -1,4 +1,4 @@
-<?php $data["title"] = "Mua goi hoc"; ?>
+<?php $data["title"] = "Thanh toan 1"; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <nav class="thanhtoan__navbarNav uk-navbar-container uk-background-default" uk-navbar>
     <div class="uk-navbar-left">
@@ -95,7 +95,7 @@
                         </div>
                     </div>
                     <div class="home__item24">
-                        <a href="" class="thanhtoan__btn uk-border-pill uk-button uk-button-default uk-width-1-1"><span>Thanh toán</span></a>
+                        <a href="thanhtoan2.php" class="thanhtoan__btn uk-border-pill uk-button uk-button-default uk-width-1-1"><span>Thanh toán</span></a>
                     </div>
                 </div>
             </div>

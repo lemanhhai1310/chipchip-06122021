@@ -87,6 +87,10 @@
     .signup__section &{
       background: #CE4431 !important;
     }
+    .muagoihoc__card &{
+      $x:42px;
+      line-height: calc(#{$x} - 2px);
+    }
     &:before{
       $x:4px;
       content: "";
@@ -107,6 +111,10 @@
       @extend .login__dc3;
       position: relative;
       top: -2px;
+      .muagoihoc__card &{
+        @extend .fz-14;
+        color: #FFFFFF;
+      }
     }
   }
   &__column{

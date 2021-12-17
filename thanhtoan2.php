@@ -25,7 +25,82 @@
                                     <h3 class="uk-h3 thanhtoan__card__title">Thông tin chuyển khoản</h3>
                                 </div>
                                 <div class="thanhtoan__card__item">
-
+                                    <ul class="uk-child-width-expand thanhtoan__tab" uk-tab>
+                                        <li class="uk-active thanhtoan__tab__li">
+                                            <a class="thanhtoan__tab__a" href="#">
+                                                <span class="thanhtoan__tab__logo" data-src="images/thanhtoan/techcombank.png" uk-img></span>
+                                            </a>
+                                        </li>
+                                        <li class="thanhtoan__tab__li">
+                                            <a class="thanhtoan__tab__a" href="#">
+                                                <span class="thanhtoan__tab__logo" data-src="images/thanhtoan/mbank.png" uk-img></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="uk-switcher">
+                                        <li>
+                                            <div class="uk-grid-small" uk-grid>
+                                                <div class="uk-width-1-2">
+                                                    <div class="home__item4">
+                                                        <span class="thanhtoan__tabContent__label">Ngân hàng</span>
+                                                    </div>
+                                                    <div class="home__item4">
+                                                        <div class="thanhtoan__tabContent__txt">Techcombank</div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-width-1-2">
+                                                    <div class="home__item4">
+                                                        <span class="thanhtoan__tabContent__label">Chi nhánh</span>
+                                                    </div>
+                                                    <div class="home__item4">
+                                                        <div class="thanhtoan__tabContent__txt">Thanh Xuân</div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-width-1-2">
+                                                    <div class="home__item4">
+                                                        <span class="thanhtoan__tabContent__label">Tên tài khoản</span>
+                                                    </div>
+                                                    <div class="home__item4">
+                                                        <div class="thanhtoan__tabContent__txt">Phan Mạnh Quỳnh</div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-width-1-2">
+                                                    <div class="home__item4">
+                                                        <span class="thanhtoan__tabContent__label">Số tài khoản</span>
+                                                    </div>
+                                                    <div class="home__item4">
+                                                        <div class="uk-position-relative">
+                                                            <div class="thanhtoan__tabContent__txt">9103 7168 6761</div>
+                                                            <span class="uk-position-top-right thanhtoan__tabContent__copy"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-width-1-1">
+                                                    <div class="home__item4">
+                                                        <span class="thanhtoan__tabContent__label">Số tiền</span>
+                                                    </div>
+                                                    <div class="home__item4">
+                                                        <div class="uk-position-relative">
+                                                            <div class="thanhtoan__tabContent__txt">2.860.000</div>
+                                                            <span class="uk-position-top-right thanhtoan__tabContent__copy"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-width-1-1">
+                                                    <div class="home__item4">
+                                                        <span class="thanhtoan__tabContent__label">Nội dung chuyển khoản</span>
+                                                    </div>
+                                                    <div class="home__item4">
+                                                        <div class="uk-position-relative">
+                                                            <div class="thanhtoan__tabContent__txt">21561571617 HS Vu Khac Minh gia han lan 1</div>
+                                                            <span class="uk-position-top-right thanhtoan__tabContent__copy"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>

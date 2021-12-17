@@ -356,60 +356,62 @@
             <button class="uk-modal-close-outside modal__close" type="button" uk-close></button>
             <div>
                 <div class="modal__item18">
-                    <div class="modal__boxProfile">
-                        <div class="uk-flex-middle uk-grid-20" uk-grid>
-                            <div class="uk-width-auto">
-                                <div class="uk-cover-container uk-border-circle">
-                                    <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover="">
-                                    <canvas width="111" height="111"></canvas>
+                    <div class="modal__box16">
+                        <div class="modal__boxProfile">
+                            <div class="uk-flex-middle uk-grid-20" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="uk-cover-container uk-border-circle">
+                                        <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover="">
+                                        <canvas width="111" height="111"></canvas>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="uk-width-expand">
-                                <div class="modal__item9">
-                                    <div class="uk-flex-middle" uk-grid>
-                                        <div class="uk-width-expand">
-                                            <div class="modal__boxProfile__name">Vũ Khắc Minh</div>
-                                        </div>
-                                        <div class="uk-width-auto">
-                                            <div class="uk-flex-middle uk-grid-9" uk-grid>
-                                                <div class="uk-width-auto">
-                                                    <span class="modal__boxProfile__iconFlah"></span>
-                                                </div>
-                                                <div class="uk-width-expand">
-                                                    <div class="modal__boxProfile__progress uk-border-pill">
-                                                        <div class="modal__boxProfile__box1 uk-position-relative">
-                                                            <div class="uk-position-cover modal__boxProfile__box2 uk-border-pill" style="width: 55%">
+                                <div class="uk-width-expand">
+                                    <div class="modal__item9">
+                                        <div class="uk-flex-middle" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <div class="modal__boxProfile__name">Vũ Khắc Minh</div>
+                                            </div>
+                                            <div class="uk-width-auto">
+                                                <div class="uk-flex-middle uk-grid-9" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <span class="modal__boxProfile__iconFlah"></span>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <div class="modal__boxProfile__progress uk-border-pill">
+                                                            <div class="modal__boxProfile__box1 uk-position-relative">
+                                                                <div class="uk-position-cover modal__boxProfile__box2 uk-border-pill" style="width: 55%">
 
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="uk-width-auto">
-                                                    <div class="modal__boxProfile__txt">2D</div>
+                                                    <div class="uk-width-auto">
+                                                        <div class="modal__boxProfile__txt">2D</div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="modal__item9">
-                                    <div class="uk-child-width-auto uk-grid-27" uk-grid>
-                                        <div>
-                                            <div class="uk-grid-10 uk-flex-middle" uk-grid>
-                                                <div>
-                                                    <span class="home__top__icon home__top__icon--c1"></span>
-                                                </div>
-                                                <div>
-                                                    <span class="home__top__txt">98</span>
+                                    <div class="modal__item9">
+                                        <div class="uk-child-width-auto uk-grid-27" uk-grid>
+                                            <div>
+                                                <div class="uk-grid-10 uk-flex-middle" uk-grid>
+                                                    <div>
+                                                        <span class="home__top__icon home__top__icon--c1"></span>
+                                                    </div>
+                                                    <div>
+                                                        <span class="home__top__txt">98</span>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div>
-                                            <div class="uk-grid-10 uk-flex-middle" uk-grid>
-                                                <div>
-                                                    <span class="home__top__icon home__top__icon--c2"></span>
-                                                </div>
-                                                <div>
-                                                    <span class="home__top__txt">46</span>
+                                            <div>
+                                                <div class="uk-grid-10 uk-flex-middle" uk-grid>
+                                                    <div>
+                                                        <span class="home__top__icon home__top__icon--c2"></span>
+                                                    </div>
+                                                    <div>
+                                                        <span class="home__top__txt">46</span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -420,7 +422,39 @@
                     </div>
                 </div>
                 <div class="modal__item18">
-                    2
+                    <div class="modal__item35">
+                        <div class="uk-overflow-auto">
+                            <div class="modal__gridUser uk-child-width-auto uk-grid-17 uk-flex-middle uk-flex-nowrap" uk-grid>
+                                <?php for ($i=0;$i<=20;$i++): ?>
+                                    <div class="modal__gridUser__column">
+                                        <label>
+                                            <input class="uk-radio modal__gridUser__radio" hidden type="radio" name="radio2" <?= ($i==0)?'checked':'' ?>>
+                                            <div class="modal__gridUser__boxAvarta uk-cover-container uk-border-circle">
+                                                <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover="">
+                                                <canvas width="57" height="57"></canvas>
+                                                <div class="modal__gridUser__boxAvarta__bg uk-position-cover"></div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                <?php endfor; ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal__item35">
+                        <div class="modal__btnBox">
+                            <div class="uk-child-width-auto uk-flex-between" uk-grid>
+                                <div>
+                                    <button class="modal__btnChange uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Chuyển tài khoản</span></button>
+                                </div>
+                                <div>
+                                    <button class="modal__btnChange uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Kiểm tra thiết bị</span></button>
+                                </div>
+                                <div>
+                                    <button class="modal__btnChange uk-button uk-button-default uk-border-pill logout"><span class="modal__btnChange__txt">Đăng xuất</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

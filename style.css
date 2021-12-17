@@ -1478,16 +1478,16 @@ body {
   }
 }
 
-.fz-20, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title {
+.fz-20, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt {
   font-size: 16px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-20, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title {
+  .fz-20, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt {
     font-size: calc(16px + 4 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-20, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title {
+  .fz-20, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt {
     font-size: 20px !important;
   }
 }
@@ -1567,6 +1567,9 @@ body {
 .modal__item9:nth-child(n+2) {
   margin-top: 9px;
 }
+.modal__item35:nth-child(n+2) {
+  margin-top: 35px;
+}
 .modal__boxProfile {
   padding: 10px 16px;
   background: #F9F9F9;
@@ -1604,8 +1607,58 @@ body {
   line-height: 1.33;
   font-family: "SF Compact Rounded Semibold", sans-serif;
 }
-.modal__body {
+.modal__btnBox {
+  padding: 32px;
+  padding-top: 0;
+}
+.modal__box16 {
   padding: 16px;
+  padding-bottom: 0;
+}
+.modal__gridUser {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.modal__gridUser__column.uk-first-column {
+  margin-left: 32px;
+}
+.modal__gridUser__column:last-child {
+  margin-right: 32px;
+}
+.modal__gridUser__boxAvarta {
+  overflow: hidden;
+}
+.modal__gridUser__radio:checked ~ .modal__gridUser__boxAvarta .modal__gridUser__boxAvarta__bg {
+  opacity: 1;
+}
+.modal__gridUser__boxAvarta__bg {
+  opacity: 0;
+  background-color: rgba(4, 21, 7, 0.6);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='19' viewBox='0 0 24 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3 9.88235L9.26087 16L21 3' stroke='%23FFCC19' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+.modal__btnChange {
+  padding: 0 24px;
+  text-transform: inherit;
+  background: #F4F4F4;
+  /* Black 600 */
+  border: 1px solid #F4F4F4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: calc(48px - 2px);
+}
+.modal__btnChange__txt {
+  color: #2B2B2C;
+  line-height: 1.2;
+  font-family: "SF Compact Rounded Semibold", sans-serif;
+}
+.logout > .modal__btnChange__txt {
+  color: #EB5757;
+}
+.modal__body {
+  padding: 0px;
   border-radius: 20px;
 }
 .modal__close {

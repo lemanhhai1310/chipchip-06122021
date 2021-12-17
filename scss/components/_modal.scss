@@ -25,6 +25,11 @@
       margin-top: 9px;
     }
   }
+  &__item35{
+    &:nth-child(n+2){
+      margin-top: 35px;
+    }
+  }
   &__boxProfile{
     padding: 10px 16px;
     background: #F9F9F9;
@@ -65,8 +70,68 @@
       font-family: $SF-Compact-Rounded-Semibold;
     }
   }
-  &__body{
+  &__btnBox{
+    padding: 32px;
+    padding-top: 0;
+  }
+  &__box16{
     padding: 16px;
+    padding-bottom: 0;
+  }
+  &__gridUser{
+    width: max-content;
+    &__column{
+      &.uk-first-column{
+        margin-left: 32px;
+      }
+      &:last-child{
+        margin-right: 32px;
+      }
+    }
+    &__radio{
+
+    }
+    &__boxAvarta{
+      overflow: hidden;
+      .modal__gridUser__radio:checked ~ &{
+        .modal__gridUser__boxAvarta__bg{
+          opacity: 1;
+        }
+      }
+      &__bg{
+        opacity: 0;
+        background-color: rgba(4, 21, 7, 0.6);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("data:image/svg+xml,%3Csvg width='24' height='19' viewBox='0 0 24 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3 9.88235L9.26087 16L21 3' stroke='%23FFCC19' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+      }
+    }
+  }
+  &__btnChange{
+    padding: 0 24px;
+    text-transform: inherit;
+    background: #F4F4F4;
+    /* Black 600 */
+
+    border: 1px solid #F4F4F4;
+    box-sizing: border-box;
+    $x:48px;
+    line-height: calc(#{$x} - 2px);
+    &__txt{
+      color: #2B2B2C;
+      line-height: 1.2;
+      @extend .fz-20;
+      font-family: $SF-Compact-Rounded-Semibold;
+      .logout> &{
+        color: #EB5757;
+      }
+    }
+    span{
+
+    }
+  }
+  &__body{
+    padding: 0px;
     border-radius: 20px;
   }
   &__close{

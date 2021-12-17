@@ -6,7 +6,7 @@
             <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" uk-navbar>
                 <div class="uk-navbar-left">
                     <div class="uk-navbar-item">
-                        <div class="home__top__box1 uk-border-pill">
+                        <div class="home__top__box1 uk-border-pill" uk-toggle="#modal-close-outside-profile">
                             <div class="uk-flex-middle uk-grid-8" uk-grid>
                                 <div class="uk-width-auto">
                                     <div class="uk-cover-container uk-border-circle">
@@ -145,7 +145,7 @@
                                                 </div>
                                             </div>
                                             <div class="home__item12">
-                                                <button type="button" class="home__panel__btn home__panel__btn__inClass uk-width-1-1 uk-button uk-button-default uk-border-pill">
+                                                <button type="button" uk-toggle="#modal-close-outside-chuatoigiovaolop" class="home__panel__btn home__panel__btn__inClass uk-width-1-1 uk-button uk-button-default uk-border-pill">
                                                     <span class="home__panel__btn__txt">Vào lớp</span>
                                                 </button>
                                             </div>
@@ -295,7 +295,7 @@
                                                                     <span class="home__panel__btn__txt">Luyện tập</span>
                                                                 </button>
                                                             <?php elseif ($i==3): ?>
-                                                                <button type="button" class="home__panel__btn home__panel__btn__default uk-width-1-1 uk-button uk-button-default uk-border-pill">
+                                                                <button type="button" uk-toggle="#modal-close-outside-noidungbaigiang" class="home__panel__btn home__panel__btn__default uk-width-1-1 uk-button uk-button-default uk-border-pill">
                                                                     <span class="home__panel__btn__txt">Xem nội dung</span>
                                                                 </button>
                                                             <?php else: ?>
@@ -444,10 +444,10 @@
                         <div class="modal__btnBox">
                             <div class="uk-child-width-auto uk-flex-between" uk-grid>
                                 <div>
-                                    <button class="modal__btnChange uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Chuyển tài khoản</span></button>
+                                    <a href="#modal-close-outside-changeaccount" uk-toggle class="modal__btnChange uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Chuyển tài khoản</span></a>
                                 </div>
                                 <div>
-                                    <button class="modal__btnChange uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Kiểm tra thiết bị</span></button>
+                                    <a href="#modal-close-outside-sound" uk-toggle class="modal__btnChange uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Kiểm tra thiết bị</span></a>
                                 </div>
                                 <div>
                                     <button class="modal__btnChange uk-button uk-button-default uk-border-pill logout"><span class="modal__btnChange__txt">Đăng xuất</span></button>
@@ -460,8 +460,701 @@
         </div>
     </div>
     <!--/profile-->
+
+    <!--chuyen tai khoan-->
+    <div id="modal-close-outside-changeaccount" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m688 modal__body uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-outside modal__close" type="button" uk-close></button>
+            <a class="modal__back uk-modal-close-outside" href="#modal-close-outside-profile" uk-toggle></a>
+            <div class="modal__box1">
+                <div class="modal__boxProfile__name">Chuyển tài khoản</div>
+            </div>
+            <div class="uk-section-xsmall modal__box2">
+                <div class="uk-child-width-1-3 uk-grid-16 uk-grid-match" uk-grid>
+                    <?php for ($i=0;$i<=4;$i++): ?>
+                        <label>
+                            <input class="uk-radio uk-hidden modal__box2__radio" type="radio" name="account" <?= ($i==0)?'checked':'' ?>>
+                            <div class="modal__box2__card uk-card uk-card-body uk-text-center">
+                                <div class="login__item16">
+                                    <div class="uk-cover-container uk-border-circle uk-display-inline-block">
+                                        <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover="">
+                                        <canvas width="72" height="72"></canvas>
+                                    </div>
+                                </div>
+                                <div class="login__item16">
+                                    <div class="modal__item9">
+                                        <div class="modal__btnChange__txt">Vũ Khắc Minh</div>
+                                    </div>
+                                    <div class="modal__item9">
+                                        <div class="uk-grid-9 uk-flex-middle uk-flex-center" uk-grid>
+                                            <div class="uk-width-auto">
+                                                <div class="modal__boxProfile__iconFlah"></div>
+                                            </div>
+                                            <div class="uk-width-auto">
+                                                <div class="modal__boxProfile__progress uk-border-pill">
+                                                    <div class="modal__boxProfile__box1 uk-position-relative">
+                                                        <div class="uk-position-cover modal__boxProfile__box2 uk-border-pill" style="width: 55%"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-auto">
+                                                <div class="modal__boxProfile__txt">2D</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                    <?php endfor; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/chuyen tai khoan-->
+
+    <!--kiem tra sound-->
+    <div id="modal-close-outside-sound" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m688 modal__body1 uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-outside modal__close" type="button" uk-close></button>
+            <a class="modal__back uk-modal-close-outside" href="#modal-close-outside-profile" uk-toggle></a>
+            <div>
+                <div class="modal__item32">
+                    <div class="home__item24">
+                        <div class="modal__boxProfile__name">Kiểm tra thiết bị</div>
+                    </div>
+                    <div class="home__item24">
+                        <div class="modal__box3">
+                            <div class="uk-child-width-auto uk-flex-middle uk-flex-between" uk-grid>
+                                <div>
+                                    <div class="uk-text-center active">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>1</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra âm thanh</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-text-center">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>2</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra Microphone</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-text-center">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>3</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra Camera</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal__item32">
+                    <div class="uk-grid-60" uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="home__item12">
+                                <div class="modal__box3__txt1">Nhấn vào <span>“Nghe đoạn âm thanh"</span> để kiểm tra loa của bạn</div>
+                            </div>
+                            <div class="home__item12">
+                                <button type="button" class="home__panel__btn home__panel__btn__video sound uk-button uk-button-default uk-border-pill">
+                                    <span class="home__panel__btn__txt">Nghe đoạn âm thanh</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="uk-width-auto">
+                            <div class="login__item16">
+                                <div class="modal__box3__txt1"><span>Bạn có nghe thấy không?</span></div>
+                            </div>
+                            <div class="login__item16">
+                                <div class="uk-child-width-auto uk-grid-16" uk-grid>
+                                    <div>
+                                        <button class="modal__btnChange modal__btnChange--c1 uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Không</span></button>
+                                    </div>
+                                    <div>
+                                        <button uk-toggle="#modal-close-outside-mic1" class="modal__btnChange modal__btnChange--c1 uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Có</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/kiem tra sound-->
+
+    <!--kiem tra mic1-->
+    <div id="modal-close-outside-mic1" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m688 modal__body1 uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-outside modal__close" type="button" uk-close></button>
+            <a class="modal__back uk-modal-close-outside" href="#modal-close-outside-sound" uk-toggle></a>
+            <div>
+                <div class="modal__item32">
+                    <div class="home__item24">
+                        <div class="modal__boxProfile__name">Kiểm tra thiết bị</div>
+                    </div>
+                    <div class="home__item24">
+                        <div class="modal__box3">
+                            <div class="uk-child-width-auto uk-flex-middle uk-flex-between" uk-grid>
+                                <div>
+                                    <div class="uk-text-center finish">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>1</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra âm thanh</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-text-center active">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>2</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra Microphone</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-text-center">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>3</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra Camera</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal__item32">
+                    <div class="uk-grid-60" uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="home__item12">
+                                <div class="modal__box3__txt1">Nhấn vào <span>“Ghi âm"</span> để kiểm tra Mic của bạn</div>
+                            </div>
+                            <div class="home__item12">
+                                <button type="button" uk-toggle="#modal-close-outside-mic2" class="home__panel__btn home__panel__btn__inClass record inrecord uk-button uk-button-default uk-border-pill">
+                                    <span class="home__panel__btn__txt">Ghi âm</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="uk-width-auto">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/kiem tra mic1-->
+
+    <!--kiem tra mic2-->
+    <div id="modal-close-outside-mic2" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m688 modal__body1 uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-outside modal__close" type="button" uk-close></button>
+            <a class="modal__back uk-modal-close-outside" href="#modal-close-outside-mic1" uk-toggle></a>
+            <div>
+                <div class="modal__item32">
+                    <div class="home__item24">
+                        <div class="modal__boxProfile__name">Kiểm tra thiết bị</div>
+                    </div>
+                    <div class="home__item24">
+                        <div class="modal__box3">
+                            <div class="uk-child-width-auto uk-flex-middle uk-flex-between" uk-grid>
+                                <div>
+                                    <div class="uk-text-center finish">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>1</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra âm thanh</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-text-center active">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>2</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra Microphone</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-text-center">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>3</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra Camera</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal__item32">
+                    <div class="uk-grid-60" uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="home__item12">
+                                <div class="modal__box3__txt1">Nhấn vào <span>“Ghi âm"</span> để kiểm tra Mic của bạn</div>
+                            </div>
+                            <div class="home__item12">
+                                <button type="button" uk-toggle="#modal-close-outside-mic3" class="home__panel__btn home__panel__btn__inClass record notrecord uk-button uk-button-default uk-border-pill">
+                                    <span class="home__panel__btn__txt">Dừng ghi âm</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="uk-width-auto">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/kiem tra mic2-->
+
+    <!--kiem tra mic3-->
+    <div id="modal-close-outside-mic3" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m688 modal__body1 uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-outside modal__close" type="button" uk-close></button>
+            <a class="modal__back uk-modal-close-outside" href="#modal-close-outside-mic2" uk-toggle></a>
+            <div>
+                <div class="modal__item32">
+                    <div class="home__item24">
+                        <div class="modal__boxProfile__name">Kiểm tra thiết bị</div>
+                    </div>
+                    <div class="home__item24">
+                        <div class="modal__box3">
+                            <div class="uk-child-width-auto uk-flex-middle uk-flex-between" uk-grid>
+                                <div>
+                                    <div class="uk-text-center finish">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>1</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra âm thanh</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-text-center active">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>2</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra Microphone</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-text-center">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>3</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra Camera</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal__item32">
+                    <div class="uk-grid-60" uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="home__item12">
+                                <div class="modal__box3__txt1">Nhấn vào <span>“Ghi âm"</span> để kiểm tra Mic của bạn</div>
+                            </div>
+                            <div class="home__item12">
+                                <div class="uk-child-width-auto uk-grid-12" uk-grid>
+                                    <div>
+                                        <button type="button" uk-toggle="#modal-close-outside-mic1" class="home__panel__btn home__panel__btn__inClass record inrecord uk-button uk-button-default uk-border-pill">
+                                            <span class="home__panel__btn__txt">Ghi âm</span>
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="home__panel__btn home__panel__btn__video sound uk-button uk-button-default uk-border-pill">
+                                            <span class="home__panel__btn__txt">Nghe đoạn ghi âm</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-width-auto">
+                            <div class="login__item16">
+                                <div class="modal__box3__txt1"><span>Bạn có nghe thấy không?</span></div>
+                            </div>
+                            <div class="login__item16">
+                                <div class="uk-child-width-auto uk-grid-16" uk-grid>
+                                    <div>
+                                        <button class="modal__btnChange modal__btnChange--c1 uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Không</span></button>
+                                    </div>
+                                    <div>
+                                        <button uk-toggle="#modal-close-outside-cam1" class="modal__btnChange modal__btnChange--c1 uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Có</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/kiem tra mic3-->
+
+    <!--kiem tra cam1-->
+    <div id="modal-close-outside-cam1" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m688 modal__body1 uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-outside modal__close" type="button" uk-close></button>
+            <a class="modal__back uk-modal-close-outside" href="#modal-close-outside-mic2" uk-toggle></a>
+            <div>
+                <div class="modal__item32">
+                    <div class="home__item24">
+                        <div class="modal__boxProfile__name">Kiểm tra thiết bị</div>
+                    </div>
+                    <div class="home__item24">
+                        <div class="modal__box3">
+                            <div class="uk-child-width-auto uk-flex-middle uk-flex-between" uk-grid>
+                                <div>
+                                    <div class="uk-text-center finish">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>1</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra âm thanh</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-text-center finish">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>2</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra Microphone</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-text-center active">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>3</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra Camera</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal__item32">
+                    <div class="uk-grid-32" uk-grid>
+                        <div class="uk-width-auto">
+                            <div class="chitietlophoc__boxVideo uk-cover-container">
+                                <div>
+                                    <video class="uk-position-center" src="https://yootheme.com/site/images/media/yootheme-pro.mp4" loop muted playsinline uk-video="autoplay: inview"></video>
+                                </div>
+                                <canvas width="220" height="124"></canvas>
+                            </div>
+                        </div>
+                        <div class="uk-width-expand">
+                            <div class="login__item16">
+                                <div class="modal__box3__txt1"><span>Bạn có thấy hình ảnh của mình không?</span></div>
+                            </div>
+                            <div class="login__item16">
+                                <div class="uk-child-width-auto uk-grid-16" uk-grid>
+                                    <div>
+                                        <button class="modal__btnChange modal__btnChange--c1 uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Không</span></button>
+                                    </div>
+                                    <div>
+                                        <button uk-toggle="#modal-close-outside-cam2" class="modal__btnChange modal__btnChange--c1 uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Có</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/kiem tra cam1-->
+
+    <!--kiem tra cam2-->
+    <div id="modal-close-outside-cam2" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m688 modal__body1 uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-outside modal__close" type="button" uk-close></button>
+            <a class="modal__back uk-modal-close-outside" href="#modal-close-outside-mic2" uk-toggle></a>
+            <div>
+                <div class="modal__item32">
+                    <div class="home__item24">
+                        <div class="modal__boxProfile__name">Kiểm tra thiết bị</div>
+                    </div>
+                    <div class="home__item24">
+                        <div class="modal__box3">
+                            <div class="uk-child-width-auto uk-flex-middle uk-flex-between" uk-grid>
+                                <div>
+                                    <div class="uk-text-center finish">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>1</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra âm thanh</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-text-center finish">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>2</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra Microphone</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-text-center finish">
+                                        <div class="home__item8">
+                                            <div class="modal__box3__step">
+                                                <span>3</span>
+                                            </div>
+                                        </div>
+                                        <div class="home__item8">
+                                            <div class="modal__box3__txt">Kiểm tra Camera</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal__item32">
+                    <div class="uk-grid-32" uk-grid>
+                        <div class="uk-width-auto">
+                            <div class="chitietlophoc__boxVideo uk-cover-container">
+                                <div>
+                                    <video class="uk-position-center" src="https://yootheme.com/site/images/media/yootheme-pro.mp4" loop muted playsinline uk-video="autoplay: inview"></video>
+                                </div>
+                                <canvas width="220" height="124"></canvas>
+                            </div>
+                        </div>
+                        <div class="uk-width-expand">
+                            <div class="login__item16">
+                                <div class="modal__box3__txt1"><span>Bạn có thấy hình ảnh của mình không?</span></div>
+                            </div>
+                            <div class="login__item16">
+                                <div class="uk-child-width-auto uk-grid-16" uk-grid>
+                                    <div>
+                                        <button uk-toggle="#modal-close-outside-device-fail" class="modal__btnChange modal__btnChange--c1 uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Không</span></button>
+                                    </div>
+                                    <div>
+                                        <button uk-toggle="#modal-close-outside-device-done" class="modal__btnChange modal__btnChange--c1 uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Có</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/kiem tra cam2-->
+
+    <!--kiem tra device done-->
+    <div id="modal-close-outside-device-done" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m400 modal__body1 uk-modal-body uk-margin-auto-vertical">
+            <div class="uk-text-center">
+                <div class="home__item24">
+                    <img src="images/congrats1.png" alt="">
+                </div>
+                <div class="home__item24">
+                    <div class="modal__desc">Chúc mừng bạn đã hoàn thành kiểm tra thiết bị.
+                        Bạn đã sẵn sàng để học.</div>
+                </div>
+                <div class="home__item24">
+                    <button class="modal__btnChange modal__btnChange--c1 modal__btnChange--c2 uk-button uk-button-default uk-border-pill uk-modal-close"><span class="modal__btnChange__txt">Xong</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/kiem tra device done-->
+
+    <!--kiem tra device fail-->
+    <div id="modal-close-outside-device-fail" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m400 modal__body1 uk-modal-body uk-margin-auto-vertical">
+            <div class="uk-text-center">
+                <div class="home__item24">
+                    <img src="images/fail.png" alt="">
+                </div>
+                <div class="home__item24">
+                    <div class="modal__desc">Hmm! Thiết bị của bạn đang bị lỗi?
+                        Vui lòng báo lỗi cho Chip Chip hoặc liên hệ hotline CSKH 0359123656 / 0986225107 để được hỗ trợ.</div>
+                </div>
+                <div class="home__item24">
+                    <div class="uk-child-width-auto uk-flex-center uk-grid-16" uk-grid>
+                        <div>
+                            <button class="modal__btnChange modal__btnChange--c1 modal__btnChange--c2 uk-button uk-button-default uk-border-pill uk-modal-close"><span class="modal__btnChange__txt">Báo lỗi</span></button>
+                        </div>
+                        <div>
+                            <button uk-toggle="#modal-close-outside-sound" class="modal__btnChange modal__btnChange--c1 modal__btnChange--c2 modal__btnChange--c3 uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Làm lại</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/kiem tra device fail-->
+
+
+    <!--xem nội dung bài giảng-->
+    <div id="modal-close-outside-noidungbaigiang" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m708 modal__body1 uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-outside modal__close" type="button" uk-close></button>
+            <div>
+                <div class="modal__item32">
+                    <div class="uk-flex-middle" uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="modal__boxProfile__name">What’s the weather like today?</div>
+                        </div>
+                        <div class="uk-width-auto">
+                            <span class="chitietlophoc__card__unit uk-border-pill uk-label uk-label-success">Level 1 Unit 2 Lesson 1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal__item32">
+                    <div class="home__item24">
+                        <div class="modal__txt1">Trong bài học, con sẽ được học các nội dung kiến thức sau:</div>
+                    </div>
+                    <div class="home__item24">
+                        <div class="login__item16">
+                            <div class="modal__txt1">1. <span>Từ vựng:</span> build sandcastles, go hiking, go camping, go surfing, go sightseeing.</div>
+                        </div>
+                        <div class="login__item16">
+                            <div class="home__item8">
+                                <div class="modal__txt1">2. <span>Mẫu câu:</span></div>
+                            </div>
+                            <div class="home__item8">
+                                <ul class="uk-list uk-list-bullet modal__list">
+                                    <li>Where are you going next Monday? - I’m going to visit Bali.</li>
+                                    <li>What is he going to go tomorrow? - He’s going to build sandcastles.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="login__item16">
+                            <div class="modal__txt1">3. <span>Ngữ pháp:</span> Thì tương lai gần (Be going to + V)</div>
+                        </div>
+                        <div class="login__item16">
+                            <div class="modal__txt1">4. <span>Ngữ âm:</span> Luyện phát âm các từ có âm /w/ (white, whale, win, weight)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/xem nội dung bài giảng-->
+
+    <!--Chưa tới giờ vào lớp-->
+    <div id="modal-close-outside-chuatoigiovaolop" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m320 modal__body1 uk-modal-body uk-margin-auto-vertical">
+            <div class="uk-text-center">
+                <div class="home__item24">
+                    <img src="images/chi-tiet-lop-hoc/congrats2.png" alt="">
+                </div>
+                <div class="home__item24 home__panel__countdown">
+                    <div class="modal__desc">
+                        Chưa tới giờ vào lớp.
+                        Lớp học sẽ bắt đầu sau
+                        <div class="uk-grid-collapse uk-child-width-auto uk-flex-center uk-flex-inline" uk-grid uk-countdown="date: 2021-12-20T17:35:10+00:00">
+                            <div>
+                                <div class="uk-countdown-number uk-countdown-days"></div>
+                            </div>
+                            <div class="uk-countdown-separator">:</div>
+                            <div>
+                                <div class="uk-countdown-number uk-countdown-hours"></div>
+                            </div>
+                            <div class="uk-countdown-separator">:</div>
+                            <div>
+                                <div class="uk-countdown-number uk-countdown-minutes"></div>
+                            </div>
+                            <div class="uk-countdown-separator">:</div>
+                            <div>
+                                <div class="uk-countdown-number uk-countdown-seconds"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home__item24">
+                    <div class="uk-child-width-auto uk-flex-center uk-grid-16" uk-grid>
+                        <div>
+                            <button class="modal__btnChange modal__btnChange--c1 modal__btnChange--c2 uk-button uk-button-default uk-border-pill uk-modal-close"><span class="modal__btnChange__txt">Thoát</span></button>
+                        </div>
+                        <div>
+                            <a href="chitietlophoc-chuavaolop.php" class="modal__btnChange modal__btnChange--c1 modal__btnChange--c2 modal__btnChange--c3 uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Vẫn vào</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Chưa tới giờ vào lớp-->
+
     <script>
-        UIkit.modal('#modal-close-outside-profile').show();
+        // UIkit.modal('#modal-close-outside-chuatoigiovaolop').show();
     </script>
 </div>
 <?php require "template-parts/layouts/footer.php"; ?>

@@ -1538,16 +1538,16 @@ body {
   }
 }
 
-.fz-14, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__top__boxProgress__txt, .bottom__offcanvas__help__txt {
+.fz-14, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__panel__btnhuongdan span, .home__top__boxProgress__txt, .bottom__offcanvas__help__txt {
   font-size: 14px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-14, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__top__boxProgress__txt, .bottom__offcanvas__help__txt {
+  .fz-14, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__panel__btnhuongdan span, .home__top__boxProgress__txt, .bottom__offcanvas__help__txt {
     font-size: calc(14px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-14, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__top__boxProgress__txt, .bottom__offcanvas__help__txt {
+  .fz-14, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__panel__btnhuongdan span, .home__top__boxProgress__txt, .bottom__offcanvas__help__txt {
     font-size: 14px !important;
   }
 }
@@ -1566,16 +1566,16 @@ body {
   }
 }
 
-.fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel__name, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li {
+.fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel__name, .home__panel__tag span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li {
   font-size: 16px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel__name, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li {
+  .fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel__name, .home__panel__tag span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li {
     font-size: calc(16px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel__name, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li {
+  .fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel__name, .home__panel__tag span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li {
     font-size: 16px !important;
   }
 }
@@ -2257,6 +2257,9 @@ body {
 .home__item24:nth-child(n+2) {
   margin-top: 24px;
 }
+.home__item54:nth-child(n+2) {
+  margin-top: 54px;
+}
 .home__top {
   background: rgba(0, 40, 86, 0.05);
   -webkit-backdrop-filter: blur(60px);
@@ -2329,6 +2332,10 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(#4D4ADA), to(#8B88FC)), #605DED;
   background: linear-gradient(180deg, #4D4ADA 0%, #8B88FC 100%), #605DED;
 }
+.home__panel.canhan {
+  background: -webkit-gradient(linear, left top, left bottom, from(#B12EDF), color-stop(50%, #D8818E), to(#FFD43E)), #605DED;
+  background: linear-gradient(180deg, #B12EDF 0%, #D8818E 50%, #FFD43E 100%), #605DED;
+}
 .home__panel.c0 {
   background: -webkit-gradient(linear, left top, left bottom, from(#4D4ADA), to(#8B88FC)), #605DED;
   background: linear-gradient(180deg, #4D4ADA 0%, #8B88FC 100%), #605DED;
@@ -2348,6 +2355,56 @@ body {
 .home__panel.c5 {
   background: -webkit-gradient(linear, left top, left bottom, from(#60B81C), to(#ACEB7B)), #605DED;
   background: linear-gradient(180deg, #60B81C 0%, #ACEB7B 100%), #605DED;
+}
+.home__panel__btnhuongdan {
+  line-height: calc(42px - 2px);
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  text-transform: inherit;
+}
+.home__panel__btnhuongdan span {
+  color: #5F5F5F;
+  line-height: 1.29;
+  font-family: "SF Compact Rounded Medium", sans-serif;
+  position: relative;
+}
+.home__panel__btnhuongdan span:before {
+  position: relative;
+  top: 3px;
+  margin-right: 8px;
+  content: "";
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.215 7.21484H9.27747C8.96997 7.21484 8.71497 6.95984 8.71497 6.65234C8.71497 6.34484 8.96997 6.08984 9.27747 6.08984H13.215C13.5225 6.08984 13.7775 6.34484 13.7775 6.65234C13.7775 6.95984 13.53 7.21484 13.215 7.21484Z' fill='%235F5F5F'/%3E%3Cpath d='M5.33998 7.78524C5.19748 7.78524 5.05498 7.73274 4.94248 7.62024L4.37998 7.05773C4.16248 6.84023 4.16248 6.48024 4.37998 6.26274C4.59748 6.04524 4.95748 6.04524 5.17498 6.26274L5.33998 6.42773L6.62998 5.13773C6.84748 4.92023 7.20748 4.92023 7.42498 5.13773C7.64248 5.35523 7.64248 5.71523 7.42498 5.93273L5.73748 7.62024C5.63248 7.72524 5.48998 7.78524 5.33998 7.78524Z' fill='%235F5F5F'/%3E%3Cpath d='M13.215 12.4648H9.27747C8.96997 12.4648 8.71497 12.2098 8.71497 11.9023C8.71497 11.5948 8.96997 11.3398 9.27747 11.3398H13.215C13.5225 11.3398 13.7775 11.5948 13.7775 11.9023C13.7775 12.2098 13.53 12.4648 13.215 12.4648Z' fill='%235F5F5F'/%3E%3Cpath d='M5.33998 13.0352C5.19748 13.0352 5.05498 12.9827 4.94248 12.8702L4.37998 12.3077C4.16248 12.0902 4.16248 11.7302 4.37998 11.5127C4.59748 11.2952 4.95748 11.2952 5.17498 11.5127L5.33998 11.6777L6.62998 10.3877C6.84748 10.1702 7.20748 10.1702 7.42498 10.3877C7.64248 10.6052 7.64248 10.9652 7.42498 11.1827L5.73748 12.8702C5.63248 12.9752 5.48998 13.0352 5.33998 13.0352Z' fill='%235F5F5F'/%3E%3Cpath d='M11.25 17.0625H6.75C2.6775 17.0625 0.9375 15.3225 0.9375 11.25V6.75C0.9375 2.6775 2.6775 0.9375 6.75 0.9375H11.25C15.3225 0.9375 17.0625 2.6775 17.0625 6.75V11.25C17.0625 15.3225 15.3225 17.0625 11.25 17.0625ZM6.75 2.0625C3.2925 2.0625 2.0625 3.2925 2.0625 6.75V11.25C2.0625 14.7075 3.2925 15.9375 6.75 15.9375H11.25C14.7075 15.9375 15.9375 14.7075 15.9375 11.25V6.75C15.9375 3.2925 14.7075 2.0625 11.25 2.0625H6.75Z' fill='%235F5F5F'/%3E%3C/svg%3E%0A");
+}
+.home__panel__tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 30px;
+  position: relative;
+}
+.home__panel__tag span {
+  position: relative;
+  color: #F4F4F4;
+  font-family: "SF Compact Rounded Medium", sans-serif;
+  line-height: 1.25;
+}
+.home__panel__tag:before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 0;
+  bottom: 0;
+  width: 151px;
+  background-image: url("images/home/tag.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .home__panel__countdown__icon {
   width: 18px;
@@ -2567,6 +2624,9 @@ body {
 .home__panel__btn.record {
   min-width: 126px;
 }
+.home__panel__btn.upload {
+  padding: 0 8px !important;
+}
 .home__panel__btn:before {
   content: "";
   position: absolute;
@@ -2676,6 +2736,13 @@ body {
   width: 10px;
   height: 8px;
   background-image: url("data:image/svg+xml,%3Csvg width='8' height='10' viewBox='0 0 8 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.2 3.41593C8.26667 4.11996 8.26667 5.88004 7.2 6.58407L2.4 9.75222C1.33333 10.4562 5.82479e-08 9.57621 1.19796e-07 8.16814L3.96764e-07 1.83186C4.58313e-07 0.423792 1.33333 -0.456246 2.4 0.247786L7.2 3.41593Z' fill='%234B4B4B'/%3E%3C/svg%3E%0A");
+}
+.upload .home__panel__btn__txt:before {
+  position: relative;
+  top: 2px;
+  width: 18px;
+  height: 18px;
+  background-image: url("data:image/svg+xml,%3Csvg width='19' height='18' viewBox='0 0 19 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.945 16.6872H7.055C3.3725 16.6872 1.7975 15.1122 1.7975 11.4297V11.3322C1.7975 8.00221 3.11 6.39721 6.05 6.11971C6.35001 6.09721 6.635 6.32221 6.66501 6.62971C6.695 6.93721 6.47001 7.21471 6.155 7.24471C3.8 7.46221 2.9225 8.57221 2.9225 11.3397V11.4372C2.9225 14.4897 4.0025 15.5697 7.055 15.5697H11.945C14.9975 15.5697 16.0775 14.4897 16.0775 11.4372V11.3397C16.0775 8.55721 15.185 7.44721 12.785 7.24471C12.4775 7.21471 12.245 6.94471 12.275 6.63721C12.305 6.32971 12.5675 6.09721 12.8825 6.12721C15.8675 6.38221 17.2025 7.99471 17.2025 11.3472V11.4447C17.2025 15.1122 15.6275 16.6872 11.945 16.6872Z' fill='%234B4B4B'/%3E%3Cpath d='M9.5 11.8123C9.1925 11.8123 8.9375 11.5573 8.9375 11.2498V2.71484C8.9375 2.40734 9.1925 2.15234 9.5 2.15234C9.8075 2.15234 10.0625 2.40734 10.0625 2.71484V11.2498C10.0625 11.5573 9.8075 11.8123 9.5 11.8123Z' fill='%234B4B4B'/%3E%3Cpath d='M12.0125 4.95008C11.87 4.95008 11.7275 4.89758 11.615 4.78508L9.49998 2.67008L7.38498 4.78508C7.16748 5.00258 6.80748 5.00258 6.58998 4.78508C6.37248 4.56758 6.37248 4.20758 6.58998 3.99008L9.10248 1.47758C9.31998 1.26008 9.67998 1.26008 9.89748 1.47758L12.41 3.99008C12.6275 4.20758 12.6275 4.56758 12.41 4.78508C12.305 4.89758 12.155 4.95008 12.0125 4.95008Z' fill='%234B4B4B'/%3E%3C/svg%3E%0A");
 }
 .home__panel1 {
   min-width: 200px;

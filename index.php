@@ -203,7 +203,7 @@
                                                 </div>
                                             </div>
                                             <div class="login__item16">
-                                                <button uk-toggle="" class="home__panel__btnhuongdan uk-button uk-button-secondary uk-width-1-1 uk-border-pill">
+                                                <button uk-toggle="#modal-close-outside-huongdan" class="home__panel__btnhuongdan uk-button uk-button-secondary uk-width-1-1 uk-border-pill">
                                                     <span>Xem hướng dẫn</span>
                                                 </button>
                                             </div>
@@ -1383,8 +1383,50 @@
     </div>
     <!--/home/dự án cá nhân/tải lên dự án-->
 
+    <!--home/dự án cá nhân/hướng dẫn-->
+    <div id="modal-close-outside-huongdan" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m688 modal__body1 uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-outside modal__close" type="button" uk-close></button>
+            <div>
+                <div class="home__item24">
+                    <div class="uk-flex-middle" uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="modal__boxProfile__name">Hướng dẫn làm dự án</div>
+                        </div>
+                        <div class="uk-width-auto">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="home__item24">
+                    <div class="home__item12">
+                        <div uk-slider>
+                            <div class="uk-position-relative">
+                                <div class="uk-slider-container uk-light">
+                                    <ul class="uk-slider-items uk-child-width-1-1">
+                                        <li>
+                                            <img src="images/light.jpg" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="images/dark.jpg" alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="">
+                                    <a class="modal__tailenduan__nav modal__tailenduan__nav--left uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                    <a class="modal__tailenduan__nav modal__tailenduan__nav--right uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/home/dự án cá nhân/hướng dẫn-->
+
     <script>
-        UIkit.modal('#modal-close-outside-tailenduan').show();
+        UIkit.modal('#modal-close-outside-huongdan').show();
     </script>
 </div>
 

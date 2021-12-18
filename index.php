@@ -81,7 +81,7 @@
                         <a href="quatang.php"><img src="images/Frame11.png" alt=""></a>
                     </div>
                     <div class="uk-navbar-item">
-                        <a href="quatang.php"><img src="images/giohang.png" alt=""></a>
+                        <a href="#modal-full" uk-toggle><img src="images/giohang.png" alt=""></a>
                     </div>
                     <div class="uk-navbar-item">
                         <a href="quatang.php"><img src="images/giupdo.png" alt=""></a>
@@ -99,8 +99,53 @@
                             <ul class="uk-slider-items uk-grid uk-grid-24 uk-child-width-auto uk-grid-match" uk-grid>
                                 <?php $percent = array(20,40,60,80,100); ?>
                                 <li>
+                                    <div class="uk-panel home__panel1 style1 uk-flex uk-flex-middle uk-flex-center">
+                                        <div class="uk-text-center home__panel1__box1">
+                                            <div class="home__panel1__txt1 home__item8">Unit 3</div>
+                                            <div class="home__panel1__txt2 home__item8">What's
+                                                for dinner?</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel home__panel1 style2 uk-flex uk-flex-middle uk-flex-center">
+                                        <div class="uk-text-center home__panel1__box1">
+                                            <div class="home__panel1__txt1 home__item8">Unit 3</div>
+                                            <div class="home__panel1__txt2 home__item8">What's
+                                                for dinner?</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel home__panel1 style3 uk-flex uk-flex-middle uk-flex-center">
+                                        <div class="uk-text-center home__panel1__box1">
+                                            <div class="home__panel1__txt1 home__item8">Unit 3</div>
+                                            <div class="home__panel1__txt2 home__item8">What's
+                                                for dinner?</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel home__panel1 style4 uk-flex uk-flex-middle uk-flex-center">
+                                        <div class="uk-text-center home__panel1__box1">
+                                            <div class="home__panel1__txt1 home__item8">Unit 3</div>
+                                            <div class="home__panel1__txt2 home__item8">What's
+                                                for dinner?</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel home__panel1 style5 uk-flex uk-flex-middle uk-flex-center">
+                                        <div class="uk-text-center home__panel1__box1">
+                                            <div class="home__panel1__txt1 home__item8">Unit 3</div>
+                                            <div class="home__panel1__txt2 home__item8">What's
+                                                for dinner?</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
                                     <div class="uk-panel home__panel canhan">
-                                        <div class="home__item54">
+                                        <div class="home__item24">
                                             <div class="login__item16">
                                                 <div class="home__item8">
                                                     <div class="home__panel__tag"><span>Dự án cá nhân</span></div>
@@ -125,9 +170,25 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="login__item16">
+                                                <div class="uk-position-relative uk-display-inline-block">
+                                                    <i class="home__panel__icon home__panel__icon__star-o"></i>
+                                                    <i class="home__panel__icon home__panel__icon__star-o"></i>
+                                                    <i class="home__panel__icon home__panel__icon__star-o"></i>
+                                                    <i class="home__panel__icon home__panel__icon__star-o"></i>
+                                                    <i class="home__panel__icon home__panel__icon__star-o"></i>
+                                                    <div class="uk-position-cover uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 60%">
+                                                        <i class="home__panel__icon home__panel__icon__star"></i>
+                                                        <i class="home__panel__icon home__panel__icon__star"></i>
+                                                        <i class="home__panel__icon home__panel__icon__star"></i>
+                                                        <i class="home__panel__icon home__panel__icon__star"></i>
+                                                        <i class="home__panel__icon home__panel__icon__star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="home__item54">
-                                            <div class="home__item24">
+                                        <div class="home__item24">
+                                            <div class="login__item16">
                                                 <div class="uk-child-width-1-2 uk-grid-16 uk-flex-middle" uk-grid>
                                                     <div>
                                                         <a href="chitietlophoc.php" class="home__panel__btn home__panel__btn__default home__panel__btn__default--video upload uk-width-1-1 uk-button uk-button-default uk-border-pill">
@@ -141,7 +202,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="home__item24">
+                                            <div class="login__item16">
                                                 <button class="home__panel__btnhuongdan uk-button uk-button-secondary uk-width-1-1 uk-border-pill">
                                                     <span>Xem hướng dẫn</span>
                                                 </button>
@@ -1209,6 +1270,21 @@
         </div>
     </div>
     <!--/Chưa tới giờ vào lớp-->
+
+    <!--Modal full-->
+    <div id="modal-full" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('images/photo.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>Headline</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Modal full-->
 
     <script>
         // UIkit.modal('#modal-close-outside-chuatoigiovaolop').show();

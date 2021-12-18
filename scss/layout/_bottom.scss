@@ -196,6 +196,9 @@
       .uk-offcanvas-flip &{
 
       }
+      #offcanvas-flip-faq &{
+        padding: 24px;
+      }
       @include media-breakpoint-up('m'){
         width: #{$w};
         .uk-offcanvas-flip &{

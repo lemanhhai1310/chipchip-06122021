@@ -1,4 +1,75 @@
 .home{
+  &__offcanvas{
+    &__contact{
+      &__note{
+        color: #4B4B4B;
+        @extend .fz-14;
+        line-height: 1.29;
+        text-align: center;
+      }
+    }
+    &__accordion{
+      &__li{
+        &:nth-child(n+2){
+          margin-top: 16px;
+        }
+      }
+      &__title{
+        background: #F7F7F7;
+        border: 1px solid #F2F2F2;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 7px 12px;
+        span{
+          color: #2B2B2C;
+          line-height: 1.25;
+          @extend .fz-16;
+          font-family: $SF-Compact-Rounded-Medium;
+        }
+        &:before{
+          background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%234B4B4B' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A") !important;
+
+        }
+      }
+      &__content{
+        margin-top: 16px;
+        color: #2B2B2C;
+        line-height: 1.25;
+        @extend .fz-16;
+        font-family: $SF-Compact-Rounded-Medium;
+      }
+    }
+    &__tab{
+      background: #F2F2F2;
+      border-radius: 14px;
+      margin: 0 !important;
+      padding: 4px;
+      &:before{
+        opacity: 0;
+      }
+      &__li{
+        padding: 0 !important;
+      }
+      &__a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 40px;
+        text-transform: inherit !important;
+        .uk-active> &{
+          border-color: transparent !important;
+          background: #FFFFFF;
+          border-radius: 10px;
+        }
+      }
+      &__txt{
+        color: #2B2B2C;
+        line-height: 1.25;
+        @extend .fz-16;
+        font-family: $SF-Compact-Rounded-Semibold;
+      }
+    }
+  }
   &__section{
     padding-top: 48px;
     padding-bottom: 48px;

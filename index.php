@@ -84,7 +84,7 @@
                         <a href="#modal-full" uk-toggle><img src="images/giohang.png" alt=""></a>
                     </div>
                     <div class="uk-navbar-item">
-                        <a href="quatang.php"><img src="images/giupdo.png" alt=""></a>
+                        <a href="#offcanvas-flip-faq" uk-toggle><img src="images/giupdo.png" alt=""></a>
                     </div>
                 </div>
             </nav>
@@ -346,11 +346,7 @@
                                 );
                                 for ($i=0;$i<=10;$i++): ?>
                                     <?php if ($i==2): ?>
-                                        <li>
-                                            <div class="uk-panel home__panel1">
 
-                                            </div>
-                                        </li>
                                     <?php else: ?>
                                         <li>
                                             <div class="uk-panel home__panel c<?= $i ?>">
@@ -1290,4 +1286,64 @@
         // UIkit.modal('#modal-close-outside-chuatoigiovaolop').show();
     </script>
 </div>
+
+<!--Chat-->
+<div id="offcanvas-flip-faq" class="bottom__offcanvas" uk-offcanvas="flip: true; overlay: true">
+    <button class="uk-offcanvas-close bottom__offcanvas__close" type="button" uk-close></button>
+    <div class="uk-offcanvas-bar bottom__offcanvas__bar uk-flex uk-flex-column">
+        <div class="home__item24">
+            <ul class="uk-child-width-expand home__offcanvas__tab" uk-tab="connect: .my-class">
+                <li class="home__offcanvas__tab__li"><a class="home__offcanvas__tab__a" href="#"><span class="home__offcanvas__tab__txt">Câu hỏi thường gặp</span></a></li>
+                <li class="home__offcanvas__tab__li uk-active"><a class="home__offcanvas__tab__a" href="#"><span class="home__offcanvas__tab__txt">Liên hệ</span></a></li>
+            </ul>
+        </div>
+        <div class="home__item24 uk-flex-auto uk-overflow-auto">
+            <ul class="uk-switcher uk-margin my-class uk-height-1-1">
+                <li>
+                    <ul class="home__offcanvas__accordion" uk-accordion>
+                        <li class="home__offcanvas__accordion__li">
+                            <a class="home__offcanvas__accordion__title uk-accordion-title" href="#"><span>Về giáo viên Chip Chip</span></a>
+                            <div class="uk-accordion-content home__offcanvas__accordion__content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </li>
+                        <li class="home__offcanvas__accordion__li">
+                            <a class="home__offcanvas__accordion__title uk-accordion-title" href="#"><span>Về lịch học tại Chip Chip</span></a>
+                            <div class="uk-accordion-content home__offcanvas__accordion__content">
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                            </div>
+                        </li>
+                        <li class="home__offcanvas__accordion__li">
+                            <a class="home__offcanvas__accordion__title uk-accordion-title" href="#"><span>Chương trình học tại Chip Chip</span></a>
+                            <div class="uk-accordion-content home__offcanvas__accordion__content">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-height-1-1">
+                    <div class="uk-height-1-1 uk-flex uk-flex-column">
+                        <div class="uk-flex-auto">
+                            <div class="home__offcanvas__contact__note">Gửi tin nhắn cho chúng tôi nếu bạn cần hỗ trợ</div>
+                        </div>
+                        <div>
+                            <form class="uk-grid-24 uk-flex-middle" uk-grid>
+                                <div class="uk-width-expand">
+                                    <input class="uk-input bottom__offcanvas__input" type="text" placeholder="Nhập nội dung chat...">
+                                </div>
+                                <div class="uk-width-auto">
+                                    <button type="button" class="bottom__offcanvas__btnSend uk-button uk-button-default"></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--/Chat-->
+<script>
+    // UIkit.modal('#offcanvas-flip-faq').show();
+</script>
 <?php require "template-parts/layouts/footer.php"; ?>

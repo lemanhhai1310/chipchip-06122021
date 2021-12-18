@@ -191,7 +191,7 @@
                                             <div class="login__item16">
                                                 <div class="uk-child-width-1-2 uk-grid-16 uk-flex-middle" uk-grid>
                                                     <div>
-                                                        <a href="chitietlophoc.php" class="home__panel__btn home__panel__btn__default home__panel__btn__default--video upload uk-width-1-1 uk-button uk-button-default uk-border-pill">
+                                                        <a href="#modal-close-outside-tailenduan" uk-toggle class="home__panel__btn home__panel__btn__default home__panel__btn__default--video upload uk-width-1-1 uk-button uk-button-default uk-border-pill">
                                                             <span class="home__panel__btn__txt">Tải lên dự án</span>
                                                         </a>
                                                     </div>
@@ -203,7 +203,7 @@
                                                 </div>
                                             </div>
                                             <div class="login__item16">
-                                                <button class="home__panel__btnhuongdan uk-button uk-button-secondary uk-width-1-1 uk-border-pill">
+                                                <button uk-toggle="" class="home__panel__btnhuongdan uk-button uk-button-secondary uk-width-1-1 uk-border-pill">
                                                     <span>Xem hướng dẫn</span>
                                                 </button>
                                             </div>
@@ -1282,8 +1282,109 @@
     </div>
     <!--/Modal full-->
 
+    <!--đã học thử/kết quả đánh giá-->
+    <div id="modal-close-outside-ketquadanhgia" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m808 modal__body1 uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-outside modal__close" type="button" uk-close></button>
+            <div>
+                <div class="home__item24">
+                    <div class="uk-flex-middle" uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="modal__boxProfile__name">Đánh giá sau học thử</div>
+                        </div>
+                        <div class="uk-width-auto">
+                            <a href="muagoihoc.php" class="home__panel__btn home__panel__btn__buy uk-button uk-button-default uk-border-pill">
+                                <span class="home__panel__btn__txt">Mua gói học</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="home__item24">
+                    <div class="home__item24">
+                        <div class="modal__ketquadanhgia__label uk-border-pill"><span>Level 3B</span></div>
+                    </div>
+                    <div class="home__item24">
+                        <ul class="modal__ketquadanhgia__accordion" uk-accordion>
+                            <li class="uk-open modal__ketquadanhgia__accordion__li">
+                                <a class="uk-accordion-title modal__ketquadanhgia__accordion__title" href="#"><span>Nhận xét của giáo viên</span></a>
+                                <div class="uk-accordion-content modal__ketquadanhgia__accordion__content">
+                                    <p>Qui ad blanditiis qui suscipit hic iure possimus. Quia qui illum sed repudiandae. Sit officia magnam consequatur. Ut et natus facere porro laudantium aut ratione aperiam. Omnis adipisci aut facere consequuntur modi at aut a voluptas. Ut et natus facere porro laudantium aut ratione aperiam. Omnis adipisci aut facere consequuntur modi at aut a voluptas.</p>
+                                </div>
+                            </li>
+                            <li class="modal__ketquadanhgia__accordion__li">
+                                <a class="uk-accordion-title modal__ketquadanhgia__accordion__title" href="#"><span>Ưu điểm</span></a>
+                                <div class="uk-accordion-content modal__ketquadanhgia__accordion__content">
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                </div>
+                            </li>
+                            <li class="modal__ketquadanhgia__accordion__li">
+                                <a class="uk-accordion-title modal__ketquadanhgia__accordion__title" href="#"><span>Điểm cần cải thiện</span></a>
+                                <div class="uk-accordion-content modal__ketquadanhgia__accordion__content">
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/đã học thử/kết quả đánh giá-->
+
+    <!--home/dự án cá nhân/tải lên dự án-->
+    <div id="modal-close-outside-tailenduan" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m688 modal__body1 uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-outside modal__close" type="button" uk-close></button>
+            <div>
+                <div class="modal__item18">
+                    <div class="uk-flex-middle" uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="modal__boxProfile__name">Tải lên dự án</div>
+                        </div>
+                        <div class="uk-width-auto">
+                            <div uk-form-custom>
+                                <input type="file">
+                                <button type="button" class="home__panel__btn home__panel__btn__video addImage uk-button uk-button-default uk-border-pill">
+                                    <span class="home__panel__btn__txt">Thêm ảnh</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal__item18">
+                    <div class="home__item12">
+                        <div uk-slider>
+                            <div class="uk-position-relative">
+                                <div class="uk-slider-container uk-light">
+                                    <ul class="uk-slider-items uk-child-width-1-1">
+                                        <li>
+                                            <img src="images/light.jpg" alt="">
+                                        </li>
+                                        <li>
+                                            <img src="images/dark.jpg" alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="">
+                                    <a class="modal__tailenduan__nav modal__tailenduan__nav--left uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                    <a class="modal__tailenduan__nav modal__tailenduan__nav--right uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home__item12 uk-text-center">
+                        <button type="button" uk-toggle="#modal-close-outside-chuatoigiovaolop" class="home__panel__btn home__panel__btn__inClass deleteImage uk-button uk-button-default uk-border-pill" aria-expanded="false">
+                            <span class="home__panel__btn__txt">Xóa ảnh này</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/home/dự án cá nhân/tải lên dự án-->
+
     <script>
-        // UIkit.modal('#modal-close-outside-chuatoigiovaolop').show();
+        UIkit.modal('#modal-close-outside-tailenduan').show();
     </script>
 </div>
 
@@ -1297,7 +1398,7 @@
                 <li class="home__offcanvas__tab__li uk-active"><a class="home__offcanvas__tab__a" href="#"><span class="home__offcanvas__tab__txt">Liên hệ</span></a></li>
             </ul>
         </div>
-        <div class="home__item24 uk-flex-auto uk-overflow-auto">
+        <div class="home__item24 uk-flex-auto">
             <ul class="uk-switcher uk-margin my-class uk-height-1-1">
                 <li>
                     <ul class="home__offcanvas__accordion" uk-accordion>
@@ -1323,8 +1424,74 @@
                 </li>
                 <li class="uk-height-1-1">
                     <div class="uk-height-1-1 uk-flex uk-flex-column">
-                        <div class="uk-flex-auto">
-                            <div class="home__offcanvas__contact__note">Gửi tin nhắn cho chúng tôi nếu bạn cần hỗ trợ</div>
+                        <div class="uk-flex-auto uk-overflow-auto" style="height: 50vh;padding-bottom: 20px;">
+                            <?php
+                            $data = array(
+                                array(
+                                    'txt' => 'In error magnam rerum. In error magnam rerum.In error magnam rerum.',
+                                    'you' => false,
+                                ),
+                                array(
+                                    'txt' => 'In error magnam rerum. In error magnam rerum.In error magnam rerum.',
+                                    'you' => true,
+                                ),
+                                array(
+                                    'txt' => 'In error magnam rerum',
+                                    'you' => false,
+                                ),
+                                array(
+                                    'txt' => 'In error magnam rerum',
+                                    'you' => true,
+                                ),
+                                array(
+                                    'txt' => 'In error magnam rerum. In error magnam rerum.In error magnam rerum.',
+                                    'you' => false,
+                                ),
+                                array(
+                                    'txt' => 'In error magnam rerum. In error magnam rerum.In error magnam rerum.',
+                                    'you' => true,
+                                ),
+                                array(
+                                    'txt' => 'In error magnam rerum',
+                                    'you' => true,
+                                ),
+
+                                array(
+                                    'txt' => 'In error magnam rerum. In error magnam rerum.In error magnam rerum.',
+                                    'you' => false,
+                                ),
+                                array(
+                                    'txt' => 'In error magnam rerum. In error magnam rerum.In error magnam rerum.',
+                                    'you' => true,
+                                ),
+                                array(
+                                    'txt' => 'In error magnam rerum',
+                                    'you' => false,
+                                ),
+                                array(
+                                    'txt' => 'In error magnam rerum',
+                                    'you' => true,
+                                ),
+                                array(
+                                    'txt' => 'In error magnam rerum. In error magnam rerum.In error magnam rerum.',
+                                    'you' => false,
+                                ),
+                                array(
+                                    'txt' => 'In error magnam rerum. In error magnam rerum.In error magnam rerum.',
+                                    'you' => true,
+                                ),
+                                array(
+                                    'txt' => 'In error magnam rerum',
+                                    'you' => true,
+                                ),
+                            );
+                            foreach ($data as $k=>$v): ?>
+                                <div class="login__item16 uk-flex <?= ($v['you'])?'uk-flex-right':'uk-flex-left' ?>">
+                                    <div class="bottom__offcanvas__chat__content <?= ($v['you'])?'bottom__offcanvas__chat__content--right':'bottom__offcanvas__chat__content--left' ?>">
+                                        <?= $v['txt'] ?>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
                         </div>
                         <div>
                             <form class="uk-grid-24 uk-flex-middle" uk-grid>

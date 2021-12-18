@@ -1566,16 +1566,16 @@ body {
   }
 }
 
-.fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li {
+.fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content {
   font-size: 16px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li {
+  .fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content {
     font-size: calc(16px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li {
+  .fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content {
     font-size: 16px !important;
   }
 }
@@ -1594,16 +1594,16 @@ body {
   }
 }
 
-.fz-20, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt {
+.fz-20, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span {
   font-size: 16px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-20, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt {
+  .fz-20, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span {
     font-size: calc(16px + 4 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-20, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt {
+  .fz-20, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span {
     font-size: 20px !important;
   }
 }
@@ -1682,6 +1682,9 @@ body {
 .uk-modal-dialog-m708 {
   width: 708px;
 }
+.uk-modal-dialog-m808 {
+  width: 808px;
+}
 .uk-modal-dialog-m {
   width: 800px;
 }
@@ -1689,6 +1692,63 @@ body {
   width: 500px;
 }
 
+.modal__tailenduan__nav {
+  padding: 0;
+  width: 82px;
+  height: 107px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.modal__tailenduan__nav svg {
+  opacity: 0;
+}
+.modal__tailenduan__nav--left {
+  background-image: url("data:image/svg+xml,%3Csvg width='126' height='171' viewBox='0 0 126 171' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg filter='url(%23filter0_d_385_310365)'%3E%3Cg filter='url(%23filter1_b_385_310365)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M47.1053 130.2L44 139L44 32L47.6594 43.6153C50.7319 53.3676 59.7752 60 70 60L70 60.0182C70.3318 60.0061 70.6652 60 71 60C85.9117 60 98 72.0883 98 87C98 101.912 85.9117 114 71 114C70.6652 114 70.3318 113.994 70 113.982L70 114C59.7058 114 50.5307 120.492 47.1053 130.2Z' fill='white' fill-opacity='0.1'/%3E%3C/g%3E%3Ccircle cx='71' cy='89' r='20' transform='rotate(-180 71 89)' fill='%232BBC13'/%3E%3Cg filter='url(%23filter2_d_385_310365)'%3E%3Ccircle cx='71' cy='86' r='20' transform='rotate(-180 71 86)' fill='%2366DB53'/%3E%3C/g%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M70.4142 80.4142C71.1953 79.6332 71.1953 78.3668 70.4142 77.5858C69.6332 76.8047 68.3668 76.8047 67.5858 77.5858L60.5858 84.5858C59.8047 85.3668 59.8047 86.6332 60.5858 87.4142L67.5858 94.4142C68.3668 95.1953 69.6332 95.1953 70.4142 94.4142C71.1953 93.6332 71.1953 92.3668 70.4142 91.5858L66.8205 87.9921C66.8796 87.9973 66.9395 88 67 88L81 88C82.1046 88 83 87.1046 83 86C83 84.8954 82.1046 84 81 84L67 84C66.9395 84 66.8796 84.0027 66.8205 84.0079L70.4142 80.4142ZM65.0079 85.8205L64.8284 86L65.0079 86.1795C65.0027 86.1204 65 86.0605 65 86C65 85.9395 65.0027 85.8796 65.0079 85.8205Z' fill='white'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_d_385_310365' x='0' y='0' width='146' height='171' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dx='-12'/%3E%3CfeGaussianBlur stdDeviation='16'/%3E%3CfeComposite in2='hardAlpha' operator='out'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_385_310365'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_385_310365' result='shape'/%3E%3C/filter%3E%3Cfilter id='filter1_b_385_310365' x='-56' y='-68' width='254' height='307' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeGaussianBlur in='BackgroundImage' stdDeviation='50'/%3E%3CfeComposite in2='SourceAlpha' operator='in' result='effect1_backgroundBlur_385_310365'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_backgroundBlur_385_310365' result='shape'/%3E%3C/filter%3E%3Cfilter id='filter2_d_385_310365' x='47' y='64' width='48' height='48' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='2'/%3E%3CfeGaussianBlur stdDeviation='2'/%3E%3CfeComposite in2='hardAlpha' operator='out'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_385_310365'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_385_310365' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A");
+  right: calc(100% - 50px);
+}
+.modal__tailenduan__nav--right {
+  left: calc(100% - 50px - 21px);
+  background-image: url("data:image/svg+xml,%3Csvg width='118' height='171' viewBox='0 0 118 171' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg filter='url(%23filter0_d_385_310375)'%3E%3Cg filter='url(%23filter1_b_385_310375)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M94.8947 40.8004L98 32V84V139L94.3406 127.385C91.2681 117.632 82.2248 111 72 111V110.982C71.6682 110.994 71.3348 111 71 111C56.0883 111 44 98.9117 44 84C44 69.0883 56.0883 57 71 57C71.3348 57 71.6682 57.0061 72 57.0182V57C82.2942 57 91.4693 50.5079 94.8947 40.8004Z' fill='white' fill-opacity='0.1'/%3E%3C/g%3E%3Ccircle cx='71' cy='85' r='20' fill='%232BBC13'/%3E%3Cg filter='url(%23filter2_d_385_310375)'%3E%3Ccircle cx='71' cy='83' r='20' fill='%2366DB53'/%3E%3C/g%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M71.5858 88.5858C70.8047 89.3668 70.8047 90.6332 71.5858 91.4142C72.3668 92.1953 73.6332 92.1953 74.4142 91.4142L81.4142 84.4142C82.1953 83.6332 82.1953 82.3668 81.4142 81.5858L74.4142 74.5858C73.6332 73.8047 72.3668 73.8047 71.5858 74.5858C70.8047 75.3668 70.8047 76.6332 71.5858 77.4142L75.1795 81.0079C75.1204 81.0027 75.0605 81 75 81L61 81C59.8954 81 59 81.8954 59 83C59 84.1046 59.8954 85 61 85L75 85C75.0605 85 75.1204 84.9973 75.1795 84.9921L71.5858 88.5858ZM76.9921 83.1795L77.1716 83L76.9921 82.8205C76.9973 82.8796 77 82.9395 77 83C77 83.0605 76.9973 83.1204 76.9921 83.1795Z' fill='white'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_d_385_310375' x='-28' y='0' width='146' height='171' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dx='-12'/%3E%3CfeGaussianBlur stdDeviation='16'/%3E%3CfeComposite in2='hardAlpha' operator='out'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_385_310375'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_385_310375' result='shape'/%3E%3C/filter%3E%3Cfilter id='filter1_b_385_310375' x='-56' y='-68' width='254' height='307' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeGaussianBlur in='BackgroundImage' stdDeviation='50'/%3E%3CfeComposite in2='SourceAlpha' operator='in' result='effect1_backgroundBlur_385_310375'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_backgroundBlur_385_310375' result='shape'/%3E%3C/filter%3E%3Cfilter id='filter2_d_385_310375' x='47' y='61' width='48' height='48' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='2'/%3E%3CfeGaussianBlur stdDeviation='2'/%3E%3CfeComposite in2='hardAlpha' operator='out'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_385_310375'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_385_310375' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+.modal__ketquadanhgia__label {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 25px;
+  background: #66DB53;
+  min-height: 36px;
+}
+.modal__ketquadanhgia__label span {
+  color: #F4F4F4;
+  line-height: 1.2;
+  font-family: "SF Compact Rounded Medium", sans-serif;
+}
+.modal__ketquadanhgia__accordion__li {
+  background: #F7F7F7;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+.modal__ketquadanhgia__accordion__title span {
+  color: #2B2B2C;
+  line-height: 1.2;
+  font-family: "SF Compact Rounded Medium", sans-serif;
+}
+.modal__ketquadanhgia__accordion__title:before {
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='14' viewBox='0 0 10 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.23201 6.06422C9.6854 6.6046 9.68541 7.39545 9.23195 7.93577C6.91949 10.6912 5.56641 11.6571 2.47726 13.158C1.58682 13.5906 0.531937 13.037 0.393571 12.0568C-0.131348 8.33799 -0.131189 5.65931 0.394046 1.93988C0.532324 0.960677 1.58536 0.406873 2.4753 0.838114C5.56293 2.33429 6.91879 3.30716 9.23201 6.06422Z' fill='%23878787'/%3E%3C/svg%3E%0A");
+}
+.uk-open > .modal__ketquadanhgia__accordion__title:before {
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='10' viewBox='0 0 14 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.93578 9.23201C7.3954 9.6854 6.60455 9.68541 6.06423 9.23195C3.30882 6.91949 2.34289 5.56641 0.842031 2.47726C0.409414 1.58682 0.962984 0.531936 1.94323 0.39357C5.66201 -0.131348 8.34069 -0.13119 12.0601 0.394046C13.0393 0.532324 13.5931 1.58536 13.1619 2.4753C11.6657 5.56293 10.6928 6.91879 7.93578 9.23201Z' fill='%23878787'/%3E%3C/svg%3E%0A");
+}
+.modal__ketquadanhgia__accordion__content {
+  color: #2B2B2C;
+  line-height: 1.5;
+}
 .modal__txt1, .modal__list li {
   color: #2B2B2C;
   line-height: 1.5;
@@ -2689,6 +2749,9 @@ body {
   text-transform: inherit;
   position: relative;
 }
+#modal-close-outside-ketquadanhgia .home__panel__btn {
+  min-width: 192px;
+}
 .home__panel__btn.record {
   min-width: 126px;
 }
@@ -2755,6 +2818,13 @@ body {
   height: 8px;
   background-image: url("data:image/svg+xml,%3Csvg width='8' height='10' viewBox='0 0 8 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.2 3.41593C8.26667 4.11996 8.26667 5.88004 7.2 6.58407L2.4 9.75221C1.33333 10.4562 5.82479e-08 9.57621 1.19796e-07 8.16814L3.96764e-07 1.83186C4.58313e-07 0.423792 1.33333 -0.456246 2.4 0.247786L7.2 3.41593Z' fill='white'/%3E%3C/svg%3E%0A");
 }
+.addImage .home__panel__btn__txt:before {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 2V14' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M14 8L2 8' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+}
 .sound .home__panel__btn__txt:before {
   position: relative;
   margin-right: 8px;
@@ -2776,6 +2846,13 @@ body {
   width: 14px;
   height: 14px;
   background-image: url("data:image/svg+xml,%3Csvg width='15' height='14' viewBox='0 0 15 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.1234 5.31465L9.18536 1.37658C9.04197 1.23318 8.82179 1.20114 8.64351 1.29772C7.34056 2.00321 6.16581 2.9854 5.24761 4.13616C4.56281 4.98581 4.01175 5.92611 3.60958 6.93138C3.47404 7.27172 3.35966 7.61746 3.26024 7.96204L1.79117 8.84175C1.67012 8.91434 1.58921 9.03849 1.5719 9.17846C1.55462 9.31859 1.60291 9.4587 1.70263 9.5584L2.38138 10.2372C1.92302 10.8326 1.1843 11.9579 1.18302 12.607C1.18241 12.8692 1.28927 13.0312 1.37904 13.121C1.46849 13.2106 1.62992 13.317 1.89095 13.317C1.89155 13.317 1.89229 13.317 1.89302 13.317C2.54211 13.3157 3.6675 12.577 4.26288 12.1186L4.94163 12.7974C5.02793 12.8839 5.14463 12.9316 5.26538 12.9316C5.284 12.9316 5.30282 12.9304 5.32158 12.9282C5.46155 12.9109 5.58572 12.8299 5.65829 12.7089L6.53804 11.2397C6.88288 11.1406 7.22987 11.0252 7.57166 10.8874C8.57964 10.4861 9.51917 9.93591 10.3621 9.25379C11.5146 8.33422 12.4968 7.15945 13.2023 5.85652C13.2988 5.67821 13.2666 5.4579 13.1234 5.31465ZM5.17411 11.7347L2.76529 9.3259L3.5762 8.84027L5.65979 10.9239L5.17411 11.7347ZM9.79862 7.29163C9.45311 7.63731 8.99307 7.82751 8.50343 7.82751C8.01376 7.82751 7.55389 7.63734 7.20838 7.29177C7.20838 7.2916 7.20838 7.2916 7.20838 7.2916C7.20838 7.2916 7.20838 7.2916 7.20821 7.2916C6.8627 6.94609 6.67247 6.48622 6.67247 5.99655C6.67247 5.50688 6.86267 5.0469 7.20835 4.70136C7.92251 3.98719 9.08443 3.98733 9.79859 4.70119C10.5128 5.41571 10.5128 6.57763 9.79862 7.29163Z' fill='white'/%3E%3Cpath d='M14.0919 0.408125C13.803 0.118911 13.4044 -0.0272963 12.9989 0.00428572C11.9106 0.0894888 10.8544 0.338016 9.84335 0.739504L13.7604 4.65658C14.1618 3.64579 14.4103 2.58994 14.4955 1.5019C14.5282 1.0959 14.381 0.697149 14.0919 0.408125Z' fill='white'/%3E%3Cpath d='M7.91033 11.7381C7.59965 11.8635 7.28317 11.97 6.96667 12.0667C6.89604 12.5022 6.76503 12.9347 6.5701 13.3461C6.48722 13.5208 6.52315 13.7287 6.65982 13.8656C6.74762 13.9537 6.86492 14 6.98403 14C7.05007 14 7.11687 13.9857 7.17929 13.9562C7.78865 13.6688 8.34301 13.2793 8.82793 12.7974C9.49974 12.1258 9.98777 11.3282 10.2662 10.4689C9.53408 10.9791 8.74448 11.4061 7.91033 11.7381Z' fill='white'/%3E%3Cpath d='M1.7015 5.67297C1.22063 6.15684 0.831118 6.71118 0.543735 7.32056C0.461157 7.49553 0.497524 7.70365 0.634517 7.84018C0.722317 7.92781 0.839321 7.97389 0.957993 7.97389C1.02449 7.97389 1.0917 7.95942 1.15446 7.92948C1.56568 7.73397 1.99801 7.60289 2.43343 7.53272C2.52977 7.21729 2.63531 6.90231 2.75863 6.59256C3.09163 5.76019 3.51961 4.97031 4.03272 4.23329C3.17281 4.51165 2.37437 5.00009 1.7015 5.67297Z' fill='white'/%3E%3C/svg%3E%0A");
+}
+.deleteImage .home__panel__btn__txt:before {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.2427 3.75781L3.75739 12.2431' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M12.2427 12.2432L3.75739 3.75788' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E%0A");
 }
 .inrecord .home__panel__btn__txt:before {
   width: 10px;

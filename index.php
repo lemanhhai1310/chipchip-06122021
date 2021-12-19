@@ -1425,8 +1425,108 @@
     </div>
     <!--/home/dự án cá nhân/hướng dẫn-->
 
+    <!--modal Luyện tập-->
+    <div id="modal-close-outside-luyentap" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m312 modal__body1 modal__luyentap__body uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-outside modal__close" type="button" uk-close></button>
+            <div>
+                <div class="signup__item20">
+                    <div class="uk-child-width-auto uk-grid-10 uk-flex-center" uk-grid>
+                        <div class="modal__luyentap__column">
+                            <img class="modal__luyentap__img" src="images/ctlh/sao-light.png" alt="">
+                        </div>
+                        <div class="modal__luyentap__column">
+                            <img class="modal__luyentap__img" src="images/ctlh/sao-light.png" alt="">
+                        </div>
+                        <div class="modal__luyentap__column">
+                            <img class="modal__luyentap__img" src="images/ctlh/sao-light.png" alt="">
+                        </div>
+                        <div class="modal__luyentap__column">
+                            <img class="modal__luyentap__img" src="images/ctlh/sao-off.png" alt="">
+                        </div>
+                        <div class="modal__luyentap__column">
+                            <img class="modal__luyentap__img" src="images/ctlh/sao-off.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="signup__item20">
+                    <div class="modal__luyentap__body1">
+                        <div class="home__item24">
+                            <div class="home__item4">
+                                <div class="home__panel__txt1">🌤 Level 1 Unit 2 Lesson 1</div>
+                            </div>
+                            <div class="home__item4">
+                                <h3 class="uk-h3 home__panel__title">What’s the weather like today?</h3>
+                            </div>
+                        </div>
+                        <div class="home__item24">
+                            <div class="home__item12">
+                                <div class="uk-flex-middle" uk-grid>
+                                    <div class="uk-width-expand">
+                                        <div class="modal__luyentap__txt1">Số lần luyện tập</div>
+                                    </div>
+                                    <div class="uk-width-auto">
+                                        <div class="modal__luyentap__txt1">4</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home__item12">
+                                <div class="uk-grid-8 uk-child-width-auto" uk-grid>
+                                    <div>
+                                        <span class="modal__luyentap__icon"></span>
+                                    </div>
+                                    <div>
+                                        <span class="modal__luyentap__icon"></span>
+                                    </div>
+                                    <div>
+                                        <span class="modal__luyentap__icon"></span>
+                                    </div>
+                                    <div>
+                                        <span class="modal__luyentap__icon"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__item24">
+                            <div class="home__item12">
+                                <div class="uk-flex-middle" uk-grid>
+                                    <div class="uk-width-expand">
+                                        <div class="modal__luyentap__txt1">Thành tích cao nhất</div>
+                                    </div>
+                                    <div class="uk-width-auto">
+                                        <div class="modal__luyentap__txt1">8/10</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home__item12">
+                                <div class="uk-grid-16 uk-child-width-expand" uk-grid>
+                                    <?php for ($i=1;$i<=10;$i++): ?>
+                                    <div class="<?= ($i<=8)?'uk-active':'' ?>">
+                                        <span class="modal__luyentap__dot"></span>
+                                    </div>
+                                    <?php endfor; ?>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__item24 uk-text-center">
+                            <div class="home__item8">
+                                <div class="modal__luyentap__txt2">Muốn đạt thành tích cao và nhận nhiều sao hơn?</div>
+                            </div>
+                            <div class="home__item8">
+                                <button type="button" class="home__panel__btn home__panel__btn__default uk-button uk-button-default uk-border-pill">
+                                    <span class="home__panel__btn__txt">Tiếp tục luyện tập</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/modal Luyện tập-->
+
     <script>
-        UIkit.modal('#modal-close-outside-huongdan').show();
+        UIkit.modal('#modal-close-outside-luyentap').show();
     </script>
 </div>
 

@@ -1524,16 +1524,16 @@ body {
   margin-top: 50px;
 }
 
-.fz-12, .bottom__offcanvas__image__txt {
+.fz-12, .bottom__offcanvas__image__txt, .modal__luyentap__txt2 {
   font-size: 12px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-12, .bottom__offcanvas__image__txt {
+  .fz-12, .bottom__offcanvas__image__txt, .modal__luyentap__txt2 {
     font-size: calc(12px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-12, .bottom__offcanvas__image__txt {
+  .fz-12, .bottom__offcanvas__image__txt, .modal__luyentap__txt2 {
     font-size: 12px !important;
   }
 }
@@ -1566,16 +1566,16 @@ body {
   }
 }
 
-.fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label {
+.fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label, .modal__luyentap__txt1 {
   font-size: 16px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label {
+  .fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label, .modal__luyentap__txt1 {
     font-size: calc(16px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label {
+  .fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label, .modal__luyentap__txt1 {
     font-size: 16px !important;
   }
 }
@@ -1695,6 +1695,61 @@ body {
   width: 500px;
 }
 
+.modal__luyentap__icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("data:image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_83_36402)'%3E%3Cpath d='M16.2301 6.83294L11.1669 1.76971C10.9825 1.58535 10.6995 1.54414 10.4702 1.66832C8.79501 2.57538 7.28462 3.8382 6.10408 5.31775C5.22362 6.41016 4.51512 7.61911 3.99804 8.91159C3.82377 9.34918 3.67671 9.7937 3.54888 10.2367L1.66008 11.3678C1.50444 11.4611 1.40042 11.6207 1.37816 11.8007C1.35594 11.9809 1.41803 12.161 1.54624 12.2892L2.41893 13.1619C1.8296 13.9274 0.879822 15.3743 0.878169 16.2088C0.877396 16.5459 1.01479 16.7542 1.1302 16.8697C1.2452 16.9849 1.45276 17.1217 1.78836 17.1217C1.78914 17.1217 1.79009 17.1217 1.79104 17.1217C2.62558 17.12 4.0725 16.1703 4.83799 15.5809L5.71068 16.4536C5.82163 16.5648 5.97168 16.6261 6.12693 16.6261C6.15087 16.6261 6.17506 16.6246 6.19917 16.6217C6.37914 16.5995 6.53878 16.4954 6.63209 16.3398L7.7632 14.4509C8.20656 14.3235 8.65269 14.1751 9.09215 13.9979C10.3881 13.4819 11.5961 12.7746 12.6798 11.8976C14.1617 10.7153 15.4245 9.20483 16.3316 7.52964C16.4557 7.30038 16.4142 7.01713 16.2301 6.83294ZM6.00958 15.0873L2.91252 11.9903L3.95511 11.3659L6.63402 14.0448L6.00958 15.0873ZM11.9554 9.37478C11.5111 9.81922 10.9197 10.0638 10.2901 10.0638C9.66055 10.0638 9.06929 9.81926 8.62506 9.37495C8.62506 9.37474 8.62506 9.37474 8.62506 9.37474C8.62506 9.37474 8.62506 9.37474 8.62485 9.37474C8.18061 8.93051 7.93603 8.33925 7.93603 7.70967C7.93603 7.08009 8.18058 6.48869 8.62502 6.04443C9.54324 5.12621 11.0371 5.12639 11.9553 6.04421C12.8736 6.96288 12.8736 8.45678 11.9554 9.37478Z' fill='white'/%3E%3Cpath d='M17.4753 0.524664C17.1038 0.152817 16.5914 -0.0351639 16.0701 0.00544154C14.6708 0.114988 13.3128 0.434524 12.0129 0.950723L17.0491 5.98696C17.5652 4.68737 17.8847 3.32985 17.9943 1.93095C18.0362 1.40895 17.8471 0.896266 17.4753 0.524664Z' fill='white'/%3E%3Cpath d='M9.52757 15.0918C9.12812 15.253 8.72123 15.3899 8.31429 15.5142C8.22348 16.0742 8.05505 16.6303 7.80442 17.1592C7.69786 17.3838 7.74406 17.6512 7.91977 17.8271C8.03265 17.9404 8.18347 18 8.33662 18C8.42152 18 8.5074 17.9816 8.58767 17.9436C9.37112 17.5741 10.0839 17.0733 10.7073 16.4537C11.5711 15.5902 12.1986 14.5647 12.5566 13.46C11.6153 14.1159 10.6 14.6649 9.52757 15.0918Z' fill='white'/%3E%3Cpath d='M1.54479 7.29388C0.926534 7.91601 0.425733 8.62873 0.0562409 9.41222C-0.0499309 9.63718 -0.00317314 9.90476 0.17296 10.0803C0.285846 10.193 0.43628 10.2522 0.588858 10.2522C0.674358 10.2522 0.760772 10.2336 0.841456 10.1951C1.37017 9.94375 1.92603 9.77521 2.48585 9.685C2.60971 9.27943 2.74541 8.87447 2.90397 8.47622C3.3321 7.40603 3.88237 6.39047 4.54207 5.44287C3.43648 5.80076 2.40992 6.42876 1.54479 7.29388Z' fill='white'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_83_36402'%3E%3Crect width='18' height='18' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+.modal__luyentap__dot {
+  width: 12px;
+  height: 12px;
+  background: rgba(245, 245, 245, 0.3);
+  border-radius: 50%;
+  display: inline-block;
+}
+.uk-active > .modal__luyentap__dot {
+  background: #FFFFFF;
+}
+.modal__luyentap__txt1 {
+  color: #F4F4F4;
+  line-height: 1.25;
+  font-family: "SF Compact Rounded Medium", sans-serif;
+}
+.modal__luyentap__txt2 {
+  color: #FFFFFF;
+  line-height: 1.33;
+  font-family: "SF Compact Rounded Medium", sans-serif;
+}
+.modal__luyentap__img {
+  width: 38px;
+  position: relative;
+}
+.modal__luyentap__column:first-child .modal__luyentap__img, .modal__luyentap__column:last-child .modal__luyentap__img {
+  -webkit-transform: matrix(0.98, -0.21, 0.21, 0.98, 0, 0);
+          transform: matrix(0.98, -0.21, 0.21, 0.98, 0, 0);
+}
+.modal__luyentap__column:nth-child(2n) .modal__luyentap__img {
+  -webkit-transform: matrix(0.99, -0.11, 0.1, 0.99, 0, 0);
+          transform: matrix(0.99, -0.11, 0.1, 0.99, 0, 0);
+  top: -16px;
+}
+.modal__luyentap__column:nth-child(3n) .modal__luyentap__img {
+  top: -23px;
+}
+.modal__luyentap__body {
+  padding: 0 !important;
+  border-radius: 0px;
+  background-color: transparent;
+}
+.modal__luyentap__body1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4D4ADA), to(#8B88FC)), #605DED;
+  background: linear-gradient(180deg, #4D4ADA 0%, #8B88FC 100%), #605DED;
+  padding: 24px;
+  border-radius: 20px;
+}
 .modal__xacnhandiadiem__label {
   color: #4B4B4B;
   line-height: 1.25;
@@ -2075,6 +2130,12 @@ body {
 }
 .modal__close svg {
   opacity: 0;
+}
+#modal-close-outside-luyentap .modal__close {
+  top: calc(100% + 24px);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .line-clamp-1 {

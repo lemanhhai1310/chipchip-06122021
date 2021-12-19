@@ -2330,6 +2330,10 @@ body {
 .bottom__offcanvas__help__btnSelect .uk-icon {
   right: 8px;
 }
+.bottom__offcanvas__chat__name {
+  font-family: "SF Compact Rounded Semibold", sans-serif;
+  font-weight: bold;
+}
 .bottom__offcanvas__chat__content {
   max-width: 83%;
   text-align: left;

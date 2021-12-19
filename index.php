@@ -405,7 +405,7 @@
                                                         </div>
                                                         <div>
                                                             <?php if ($i==1): ?>
-                                                                <button type="button" class="home__panel__btn home__panel__btn__default uk-width-1-1 uk-button uk-button-default uk-border-pill">
+                                                                <button type="button" uk-toggle="#modal-close-outside-luyentap" class="home__panel__btn home__panel__btn__default uk-width-1-1 uk-button uk-button-default uk-border-pill">
                                                                     <span class="home__panel__btn__txt">Luyện tập</span>
                                                                 </button>
                                                             <?php elseif ($i==3): ?>

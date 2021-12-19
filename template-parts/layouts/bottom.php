@@ -98,8 +98,19 @@
             );
             foreach ($data as $k=>$v): ?>
             <div class="login__item16 uk-flex <?= ($v['you'])?'uk-flex-right':'uk-flex-left' ?>">
-                <div class="bottom__offcanvas__chat__content <?= ($v['you'])?'bottom__offcanvas__chat__content--right':'bottom__offcanvas__chat__content--left' ?>">
-                    <?= $v['txt'] ?>
+                <div class="uk-grid-10" uk-grid>
+                    <div class="uk-width-auto <?= ($v['you'])?'uk-flex-last':'uk-flex-first' ?>">
+                        <div class="uk-cover-container uk-border-circle">
+                            <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover>
+                            <canvas width="36" height="36"></canvas>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand">
+                        <div class="bottom__offcanvas__chat__content <?= ($v['you'])?'bottom__offcanvas__chat__content--right uk-margin-auto-left':'bottom__offcanvas__chat__content--left' ?>">
+                            <div class="bottom__offcanvas__chat__name">Hai LE Manh</div>
+                            <div><?= $v['txt'] ?></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <?php endforeach; ?>

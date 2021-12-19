@@ -136,6 +136,10 @@
       }
     }
     &__chat{
+      &__name{
+        font-family: $SF-Compact-Rounded-Semibold;
+        font-weight: bold;
+      }
       &__content{
         max-width: 83%;
         text-align: left;

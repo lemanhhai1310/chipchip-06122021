@@ -250,7 +250,7 @@
                         <button class="modal__btnChange modal__btnChange--c1 modal__btnChange--c2 uk-button uk-button-default uk-border-pill uk-modal-close"><span class="modal__btnChange__txt">Thoát</span></button>
                     </div>
                     <div>
-                        <a href="#modal-close-outside-xacnhandiadiem" uk-toggle class="home__panel__btn home__panel__btn__buy doiqua uk-button uk-button-default uk-border-pill">
+                        <a href="#modal-close-outside-quatangsuccess" uk-toggle class="home__panel__btn home__panel__btn__buy doiqua uk-button uk-button-default uk-border-pill">
                             <span class="home__panel__btn__txt">Đổi quà ngay</span>
                         </a>
                     </div>
@@ -260,7 +260,30 @@
     </div>
     <!--/Quà tặng/xác nhận địa điểm-->
 
+    <!--Quà tặng/notify chúc mừng-->
+    <div id="modal-close-outside-quatangsuccess" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m400 modal__body1 uk-modal-body uk-margin-auto-vertical">
+            <div class="uk-text-center">
+                <div class="home__item24">
+                    <img src="images/quatang/congrats1.png" alt="">
+                </div>
+                <div class="home__item24">
+                    <div class="modal__desc">Chúc mừng bạn đã đổi quà thành công.
+                        Chip Chip sẽ sớm liên hệ lại với bạn để xác nhận và hướng dẫn nhận quà.</div>
+                </div>
+                <div class="home__item24">
+                    <div class="uk-child-width-auto uk-flex-center uk-grid-16" uk-grid>
+                        <div>
+                            <button class="modal__btnChange modal__btnChange--c1 modal__btnChange--c2 uk-button uk-button-default uk-border-pill uk-modal-close"><span class="modal__btnChange__txt">Xong</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Quà tặng/notify chúc mừng-->
+
 <script>
-    UIkit.modal('#modal-close-outside-xacnhandiadiem').show();
+    UIkit.modal('#modal-close-outside-quatangsuccess').show();
 </script>
 <?php require "template-parts/layouts/footer.php"; ?>

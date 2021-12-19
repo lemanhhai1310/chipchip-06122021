@@ -60,7 +60,7 @@
                                                 <div class="home__item12">
                                                     <div class="quatang__card__box2">
                                                         <div class="home__item12">
-                                                            <h3 class="uk-h3 quatang__card__box1__title"><a href=""><?= $txt[array_rand($txt)] ?></a></h3>
+                                                            <h3 class="uk-h3 quatang__card__box1__title"><a href="#modal-close-outside-quatangchitiet" uk-toggle><?= $txt[array_rand($txt)] ?></a></h3>
                                                         </div>
                                                         <div class="home__item12">
                                                             <div class="uk-flex-middle" uk-grid>
@@ -217,7 +217,7 @@
                     <div class="home__item24">
                         <div class="uk-flex-middle" uk-grid>
                             <div class="uk-width-expand">
-                                <a href="muagoihoc.php" class="home__panel__btn home__panel__btn__buy doiqua uk-button uk-button-default uk-border-pill">
+                                <a href="#modal-close-outside-xacnhandiadiem" uk-toggle class="home__panel__btn home__panel__btn__buy doiqua uk-button uk-button-default uk-border-pill">
                                     <span class="home__panel__btn__txt">Đổi quà ngay</span>
                                 </a>
                             </div>
@@ -233,7 +233,34 @@
 </div>
 <!--/Quà tặng/xem chi tiết-->
 
+    <!--Quà tặng/xác nhận địa điểm-->
+    <div id="modal-close-outside-xacnhandiadiem" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m548 modal__body1 uk-modal-body uk-margin-auto-vertical">
+            <div class="home__item24">
+                <div class="home__item8">
+                    <div class="modal__xacnhandiadiem__label">Nhập địa chỉ nhận quà</div>
+                </div>
+                <div class="home__item8">
+                    <textarea class="uk-textarea modal__xacnhandiadiem__textarea" rows="5" placeholder="Địa chỉ nhận quà..."></textarea>
+                </div>
+            </div>
+            <div class="home__item24">
+                <div class="uk-child-width-auto uk-grid-24" uk-grid>
+                    <div>
+                        <button class="modal__btnChange modal__btnChange--c1 modal__btnChange--c2 uk-button uk-button-default uk-border-pill uk-modal-close"><span class="modal__btnChange__txt">Thoát</span></button>
+                    </div>
+                    <div>
+                        <a href="#modal-close-outside-xacnhandiadiem" uk-toggle class="home__panel__btn home__panel__btn__buy doiqua uk-button uk-button-default uk-border-pill">
+                            <span class="home__panel__btn__txt">Đổi quà ngay</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Quà tặng/xác nhận địa điểm-->
+
 <script>
-    UIkit.modal('#modal-close-outside-quatangchitiet').show();
+    UIkit.modal('#modal-close-outside-xacnhandiadiem').show();
 </script>
 <?php require "template-parts/layouts/footer.php"; ?>

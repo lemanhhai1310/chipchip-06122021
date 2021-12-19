@@ -108,7 +108,7 @@
                                                 <div class="home__item12">
                                                     <div class="quatang__card__box2">
                                                         <div class="home__item12">
-                                                            <h3 class="uk-h3 quatang__card__box1__title"><a href=""><?= $txt[array_rand($txt)] ?></a></h3>
+                                                            <h3 class="uk-h3 quatang__card__box1__title"><a href="#modal-close-outside-quatangchitiet" uk-toggle><?= $txt[array_rand($txt)] ?></a></h3>
                                                         </div>
                                                         <div class="home__item12">
                                                             <div class="uk-flex-middle" uk-grid>
@@ -134,4 +134,106 @@
         </div>
     </div>
 </div>
+<!--Quà tặng/xem chi tiết-->
+<div id="modal-close-outside-quatangchitiet" class="modal uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-dialog-m708 modal__body1 uk-modal-body uk-margin-auto-vertical">
+        <button class="uk-modal-close-outside modal__close" type="button" uk-close></button>
+        <div class="uk-child-width-1-2 uk-grid-32 uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-position-relative" uk-slideshow="animation: fade;ratio: 648:520;">
+
+                    <ul class="uk-slideshow-items home__item12">
+                        <li>
+                            <div class="uk-cover-container">
+                                <img src="images/photo.jpg" alt="" uk-cover>
+                                <canvas width="648" height="520"></canvas>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-cover-container">
+                                <img src="images/dark.jpg" alt="" uk-cover>
+                                <canvas width="648" height="520"></canvas>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-cover-container">
+                                <img src="images/light.jpg" alt="" uk-cover>
+                                <canvas width="648" height="520"></canvas>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="home__item12">
+                        <ul class="uk-thumbnav uk-child-width-1-3 uk-grid-12" uk-grid>
+                            <li uk-slideshow-item="0">
+                                <a href="#">
+                                    <div class="uk-cover-container">
+                                        <img src="images/photo.jpg" alt="" uk-cover>
+                                        <canvas width="100" height="80"></canvas>
+                                    </div>
+                                </a>
+                            </li>
+                            <li uk-slideshow-item="1">
+                                <a href="#">
+                                    <div class="uk-cover-container">
+                                        <img src="images/dark.jpg" alt="" uk-cover>
+                                        <canvas width="100" height="80"></canvas>
+                                    </div>
+                                </a>
+                            </li>
+                            <li uk-slideshow-item="2">
+                                <a href="#">
+                                    <div class="uk-cover-container">
+                                        <img src="images/light.jpg" alt="" uk-cover>
+                                        <canvas width="100" height="80"></canvas>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-flex uk-flex-column">
+                    <div class="uk-flex-auto home__item24">
+                        <div class="home__item24">
+                            <div class="home__item8">
+                                <h1 class="uk-h1 modal__quatang__title">Bộ lắp ráp mô hình Pokemon lửa, nhiều hình dễ thương</h1>
+                            </div>
+                            <div class="home__item8">
+                                <div class="modal__quatang__rate"><span>450</span></div>
+                            </div>
+                        </div>
+                        <div class="home__item24">
+                            <div class="home__item8">
+                                <div class="modal__quatang__label">Mô tả</div>
+                            </div>
+                            <div class="home__item8">
+                                <div class="modal__quatang__desc">Bộ mô hình lắp ráp mini với màu sắc tươi sáng, sinh động tạo nên cảm hứng sáng tạo cho trẻ nhỏ khi chơi. Sản phẩm không dành cho trẻ dưới 3 tuổi.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home__item24">
+                        <div class="uk-flex-middle" uk-grid>
+                            <div class="uk-width-expand">
+                                <a href="muagoihoc.php" class="home__panel__btn home__panel__btn__buy doiqua uk-button uk-button-default uk-border-pill">
+                                    <span class="home__panel__btn__txt">Đổi quà ngay</span>
+                                </a>
+                            </div>
+                            <div class="uk-width-auto">
+                                <div class="modal__quatang__wishlist"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Quà tặng/xem chi tiết-->
+
+<script>
+    UIkit.modal('#modal-close-outside-quatangchitiet').show();
+</script>
 <?php require "template-parts/layouts/footer.php"; ?>

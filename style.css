@@ -3029,6 +3029,7 @@ body {
   border-radius: 20px;
   background-position: bottom center;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 .home__panel1__box1 {
   margin-top: 60px;

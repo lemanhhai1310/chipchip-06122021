@@ -1525,8 +1525,36 @@
     </div>
     <!--/modal Luyện tập-->
 
+    <!--Modal popup plus-->
+    <div id="modal-close-outside-popup" class="modal uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-dialog-m688 modal__body1 uk-modal-body uk-margin-auto-vertical">
+            <div class="uk-text-center">
+                <div class="home__item24">
+                    <img src="images/congrats-chuavaolop.png" alt="">
+                </div>
+                <div class="home__item24 home__panel__countdown">
+                    <div class="modal__txt1">
+                        Chưa tới giờ vào lớp.
+                        Lớp học sẽ bắt đầu sau
+                    </div>
+                </div>
+                <div class="home__item24">
+                    <div class="uk-child-width-auto uk-flex-center uk-grid-16" uk-grid>
+                        <div>
+                            <a href="chitietlophoc-chuavaolop.php" class="modal__btnChange modal__btnChange--c1 modal__btnChange--c2 modal__btnChange--c3 uk-button uk-button-default uk-border-pill"><span class="modal__btnChange__txt">Đồng ý</span></a>
+                        </div>
+                        <div>
+                            <button class="modal__btnChange modal__btnChange--c1 modal__btnChange--c2 uk-button uk-button-default uk-border-pill uk-modal-close"><span class="modal__btnChange__txt">Thoát</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Modal popup plus-->
+
     <script>
-        UIkit.modal('#modal-close-outside-luyentap').show();
+        UIkit.modal('#modal-close-outside-popup').show();
     </script>
 </div>
 

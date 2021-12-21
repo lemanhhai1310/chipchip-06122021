@@ -3244,6 +3244,9 @@ body {
   border-radius: 12px;
   overflow: hidden;
 }
+.chitietlophoc__boxVideo video {
+  border-radius: 12px;
+}
 .chitietlophoc__boxVideo__avarta {
   top: 82px;
 }

@@ -1134,7 +1134,7 @@
         <div class="uk-modal-dialog uk-modal-dialog-m400 modal__body1 uk-modal-body uk-margin-auto-vertical">
             <div class="uk-text-center">
                 <div class="home__item24">
-                    <img src="images/congrats1.png" alt="">
+                    <img src="images/chucmung/congrats1.png" alt="">
                 </div>
                 <div class="home__item24">
                     <div class="modal__desc">Chúc mừng bạn đã hoàn thành kiểm tra thiết bị.
@@ -1227,7 +1227,7 @@
         <div class="uk-modal-dialog uk-modal-dialog-m320 modal__body1 uk-modal-body uk-margin-auto-vertical">
             <div class="uk-text-center">
                 <div class="home__item24">
-                    <img src="images/chi-tiet-lop-hoc/congrats2.png" alt="">
+                    <img src="images/congrats-chuavaolop.png" alt="">
                 </div>
                 <div class="home__item24 home__panel__countdown">
                     <div class="modal__desc">

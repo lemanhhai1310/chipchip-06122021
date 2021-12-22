@@ -3,13 +3,22 @@
         <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" uk-navbar>
             <div class="uk-navbar-left">
                 <div class="uk-navbar-item">
-                    <a onclick="dodajAktywne(this)" href="#offcanvas-flip-chat" uk-toggle class="bottom__icon bottom__icon--chat"></a>
+                    <a onclick="dodajAktywne(this)" href="#offcanvas-flip-chat" class="uk-text-center uk-link-toggle" uk-toggle>
+                        <div class="bottom__icon bottom__icon--chat"></div>
+                        <div class="uk-navbar-subtitle bottom__subtitle">Subtitle</div>
+                    </a>
                 </div>
                 <div class="uk-navbar-item">
-                    <a onclick="dodajAktywne(this)" href="#offcanvas-flip-help" uk-toggle class="bottom__icon bottom__icon--help"></a>
+                    <a onclick="dodajAktywne(this)" href="#offcanvas-flip-help" class="uk-text-center uk-link-toggle" uk-toggle>
+                        <div class="bottom__icon bottom__icon--help"></div>
+                        <div class="uk-navbar-subtitle bottom__subtitle">Subtitle</div>
+                    </a>
                 </div>
                 <div class="uk-navbar-item">
-                    <a onclick="dodajAktywne(this)" href="#offcanvas-flip-image" uk-toggle class="bottom__icon bottom__icon--image"></a>
+                    <a onclick="dodajAktywne(this)" href="#offcanvas-flip-image" class="uk-text-center uk-link-toggle" uk-toggle>
+                        <div class="bottom__icon bottom__icon--image"></div>
+                        <div class="uk-navbar-subtitle bottom__subtitle">Subtitle</div>
+                    </a>
                 </div>
             </div>
             <div class="uk-navbar-right">

@@ -12,6 +12,11 @@
       font-family: $SF-Compact-Rounded-Medium;
     }
   }
+  &__subtitle{
+    margin-top: -15px;
+    color: #FFFFFF;
+    @extend .fz-13;
+  }
   &__icon{
     width: 64px;
     height: 64px;

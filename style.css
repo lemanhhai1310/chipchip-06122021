@@ -1538,6 +1538,20 @@ body {
   }
 }
 
+.fz-13, .bottom__subtitle {
+  font-size: 13px !important;
+}
+@media screen and (min-width: 640px) {
+  .fz-13, .bottom__subtitle {
+    font-size: calc(13px + 0 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .fz-13, .bottom__subtitle {
+    font-size: 13px !important;
+  }
+}
+
 .fz-14, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__panel__btnhuongdan span, .home__top__boxProgress__txt, .home__offcanvas__contact__note, .bottom__offcanvas__help__txt, .modal__quatang__label {
   font-size: 14px !important;
 }
@@ -2224,6 +2238,10 @@ body {
   color: #F4F4F4;
   line-height: 1.5;
   font-family: "SF Compact Rounded Medium", sans-serif;
+}
+.bottom__subtitle {
+  margin-top: -15px;
+  color: #FFFFFF;
 }
 .bottom__icon {
   width: 64px;

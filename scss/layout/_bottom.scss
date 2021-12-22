@@ -1,4 +1,17 @@
 .bottom{
+  &__box{
+    background: rgba(102, 110, 140, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 318px;
+    max-width: 318px;
+    &__txt{
+      color: #F4F4F4;
+      line-height: 1.5;
+      @extend .fz-16;
+      font-family: $SF-Compact-Rounded-Medium;
+    }
+  }
   &__icon{
     width: 64px;
     height: 64px;

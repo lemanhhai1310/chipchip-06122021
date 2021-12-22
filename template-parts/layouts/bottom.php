@@ -12,6 +12,23 @@
                     <a onclick="dodajAktywne(this)" href="#offcanvas-flip-image" uk-toggle class="bottom__icon bottom__icon--image"></a>
                 </div>
             </div>
+            <div class="uk-navbar-right">
+                <div class="uk-navbar-item" uk-toggle="#offcanvas-flip-chat">
+                    <div class="uk-grid-16 uk-flex-middle" uk-grid>
+                        <div class="uk-width-auto">
+                            <div class="uk-cover-container uk-border-circle">
+                                <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover="">
+                                <canvas width="46" height="46"></canvas>
+                            </div>
+                        </div>
+                        <div class="uk-width-auto">
+                            <div class="uk-padding-small bottom__box">
+                                <div class="bottom__box__txt">In error magnam rerum. In error magnam rerum.In error magnam rerum.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </nav>
     </div>
 </div>

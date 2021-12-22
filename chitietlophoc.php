@@ -51,7 +51,7 @@
                                                 <?php endif; ?>
                                             </div>
                                             <div class="uk-width-auto">
-                                                <div class="chitietlophoc__boxVideo__signal">Tín hiệu tốt</div>
+                                                <div class="chitietlophoc__boxVideo__signal warning">Tín hiệu tốt</div>
                                             </div>
                                         </div>
                                     </div>

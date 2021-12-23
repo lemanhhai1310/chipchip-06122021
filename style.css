@@ -3223,6 +3223,11 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+@media only screen and (max-height: 767px) {
+  .chitietlophoc__section .uk-container {
+    max-width: 860px;
+  }
+}
 .chitietlophoc__card {
   border-radius: 20px;
   padding: 10px;

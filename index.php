@@ -211,6 +211,73 @@
                                     </div>
                                 </li>
                                 <li>
+                                    <div class="uk-panel home__panel canhan">
+                                        <div class="home__item24">
+                                            <div class="login__item16">
+                                                <div class="home__item8">
+                                                    <div class="home__panel__tag"><span>Dự án cá nhân</span></div>
+                                                </div>
+                                                <div class="home__item8">
+                                                    <h3 class="uk-h3 home__panel__title">Your Animal Report</h3>
+                                                </div>
+                                                <div class="home__item8">
+                                                    <div class="home__panel__time">20:30 - Thứ 6, 5/11</div>
+                                                </div>
+                                            </div>
+                                            <div class="login__item16">
+                                                <div class="uk-flex-middle uk-grid-8" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="uk-cover-container uk-border-circle">
+                                                            <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover>
+                                                            <canvas width="36" height="36"></canvas>
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <div class="home__panel__name">Thầy Edward</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="login__item16">
+                                                <div class="uk-position-relative uk-display-inline-block">
+                                                    <i class="home__panel__icon home__panel__icon__star-o"></i>
+                                                    <i class="home__panel__icon home__panel__icon__star-o"></i>
+                                                    <i class="home__panel__icon home__panel__icon__star-o"></i>
+                                                    <i class="home__panel__icon home__panel__icon__star-o"></i>
+                                                    <i class="home__panel__icon home__panel__icon__star-o"></i>
+                                                    <div class="uk-position-cover uk-text-nowrap uk-position-z-index uk-overflow-hidden" style="width: 60%">
+                                                        <i class="home__panel__icon home__panel__icon__star"></i>
+                                                        <i class="home__panel__icon home__panel__icon__star"></i>
+                                                        <i class="home__panel__icon home__panel__icon__star"></i>
+                                                        <i class="home__panel__icon home__panel__icon__star"></i>
+                                                        <i class="home__panel__icon home__panel__icon__star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="home__item24">
+                                            <div class="login__item16">
+                                                <div class="uk-child-width-1-2 uk-grid-16 uk-flex-middle" uk-grid>
+                                                    <div>
+                                                        <a href="#modal-close-outside-tailenduan" uk-toggle class="home__panel__btn home__panel__btn__default home__panel__btn__default--video view uk-width-1-1 uk-button uk-button-default uk-border-pill">
+                                                            <span class="home__panel__btn__txt">Xem dự án</span>
+                                                        </a>
+                                                    </div>
+                                                    <div>
+                                                        <button type="button" uk-toggle="#modal-close-outside-chuatoigiovaolop" class="home__panel__btn home__panel__btn__inClass uk-width-1-1 uk-button uk-button-default uk-border-pill">
+                                                            <span class="home__panel__btn__txt">Vào lớp</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="login__item16">
+                                                <button uk-toggle="#modal-close-outside-huongdan" class="home__panel__btnhuongdan uk-button uk-button-secondary uk-width-1-1 uk-border-pill">
+                                                    <span>Xem hướng dẫn</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
                                     <div class="uk-panel home__panel c0">
                                         <div class="home__item24">
                                             <div class="login__item16">

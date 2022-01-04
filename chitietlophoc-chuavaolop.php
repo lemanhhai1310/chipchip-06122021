@@ -44,7 +44,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="chitietlophoc__card__body uk-card-body uk-flex-auto uk-flex-middle uk-flex uk-flex-center">
+                            <div class="chitietlophoc__card__body uk-card-body uk-flex-auto uk-flex-middle uk-flex uk-flex-center uk-overflow-auto">
                                 <div class="uk-text-center">
                                     <div class="home__item8">
                                         <img src="images/chi-tiet-lop-hoc/congrats2.png" alt="">

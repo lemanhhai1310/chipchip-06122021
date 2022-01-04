@@ -18,7 +18,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="chitietlophoc__card__body uk-card-body uk-flex-auto">
+                            <div class="chitietlophoc__card__body uk-card-body uk-flex-auto uk-overflow-auto">
 
                             </div>
                         </div>

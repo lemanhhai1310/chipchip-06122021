@@ -1524,16 +1524,16 @@ body {
   margin-top: 50px;
 }
 
-.fz-12, .bottom__offcanvas__image__txt, .modal__luyentap__txt2 {
+.fz-12, .duancanhan__box1__labelStatus span, .bottom__offcanvas__image__txt, .modal__luyentap__txt2 {
   font-size: 12px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-12, .bottom__offcanvas__image__txt, .modal__luyentap__txt2 {
+  .fz-12, .duancanhan__box1__labelStatus span, .bottom__offcanvas__image__txt, .modal__luyentap__txt2 {
     font-size: calc(12px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-12, .bottom__offcanvas__image__txt, .modal__luyentap__txt2 {
+  .fz-12, .duancanhan__box1__labelStatus span, .bottom__offcanvas__image__txt, .modal__luyentap__txt2 {
     font-size: 12px !important;
   }
 }
@@ -1552,16 +1552,16 @@ body {
   }
 }
 
-.fz-14, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__panel__btnhuongdan span, .home__top__boxProgress__txt, .home__offcanvas__contact__note, .bottom__offcanvas__help__txt, .modal__quatang__label {
+.fz-14, .duancanhan__box2__item__linkhuongdan, .duancanhan__box2__txt2, .duancanhan__box2__btn span, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__panel__btnhuongdan span, .home__top__boxProgress__txt, .home__offcanvas__contact__note, .bottom__offcanvas__help__txt, .modal__quatang__label {
   font-size: 14px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-14, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__panel__btnhuongdan span, .home__top__boxProgress__txt, .home__offcanvas__contact__note, .bottom__offcanvas__help__txt, .modal__quatang__label {
+  .fz-14, .duancanhan__box2__item__linkhuongdan, .duancanhan__box2__txt2, .duancanhan__box2__btn span, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__panel__btnhuongdan span, .home__top__boxProgress__txt, .home__offcanvas__contact__note, .bottom__offcanvas__help__txt, .modal__quatang__label {
     font-size: calc(14px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-14, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__panel__btnhuongdan span, .home__top__boxProgress__txt, .home__offcanvas__contact__note, .bottom__offcanvas__help__txt, .modal__quatang__label {
+  .fz-14, .duancanhan__box2__item__linkhuongdan, .duancanhan__box2__txt2, .duancanhan__box2__btn span, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__panel__btnhuongdan span, .home__top__boxProgress__txt, .home__offcanvas__contact__note, .bottom__offcanvas__help__txt, .modal__quatang__label {
     font-size: 14px !important;
   }
 }
@@ -1608,30 +1608,30 @@ body {
   }
 }
 
-.fz-20, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
+.fz-20, .duancanhan__box2__item__txt, .duancanhan__box2__txt1, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
   font-size: 16px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-20, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
+  .fz-20, .duancanhan__box2__item__txt, .duancanhan__box2__txt1, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
     font-size: calc(16px + 4 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-20, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
+  .fz-20, .duancanhan__box2__item__txt, .duancanhan__box2__txt1, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
     font-size: 20px !important;
   }
 }
 
-.fz-24, .quatang__card__title, .home__panel1__txt2, .bottom__offcanvas__title, .modal__boxProfile__name {
+.fz-24, .duancanhan__box1__title, .quatang__card__title, .home__panel1__txt2, .bottom__offcanvas__title, .modal__boxProfile__name {
   font-size: 19.2px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-24, .quatang__card__title, .home__panel1__txt2, .bottom__offcanvas__title, .modal__boxProfile__name {
+  .fz-24, .duancanhan__box1__title, .quatang__card__title, .home__panel1__txt2, .bottom__offcanvas__title, .modal__boxProfile__name {
     font-size: calc(19.2px + 4.8 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-24, .quatang__card__title, .home__panel1__txt2, .bottom__offcanvas__title, .modal__boxProfile__name {
+  .fz-24, .duancanhan__box1__title, .quatang__card__title, .home__panel1__txt2, .bottom__offcanvas__title, .modal__boxProfile__name {
     font-size: 24px !important;
   }
 }
@@ -2808,6 +2808,9 @@ body {
   color: #FFFFFF;
   font-family: "SF Compact Rounded Semibold", sans-serif;
 }
+.duancanhan__box2__item .home__panel__name {
+  color: #2B2B2C;
+}
 .home__panel__txt1 {
   color: #F4F4F4;
   line-height: 1.29;
@@ -2909,6 +2912,9 @@ body {
 .home__panel__btn.doiqua {
   min-width: 180px;
 }
+.duancanhan__box2 .home__panel__btn {
+  width: 160px;
+}
 #modal-close-outside-ketquadanhgia .home__panel__btn {
   min-width: 192px;
 }
@@ -2917,6 +2923,9 @@ body {
 }
 .home__panel__btn.upload {
   padding: 0 8px !important;
+}
+.duancanhan__box1 .home__panel__btn {
+  width: 240px;
 }
 .home__panel__btn:before {
   content: "";
@@ -3058,6 +3067,20 @@ body {
   position: relative;
   top: 4px;
   background-image: url("data:image/svg+xml,%3Csvg width='19' height='18' viewBox='0 0 19 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.49996 11.4357C8.15558 11.4357 7.06433 10.3445 7.06433 9.00008C7.06433 7.6557 8.15558 6.56445 9.49996 6.56445C10.8443 6.56445 11.9356 7.6557 11.9356 9.00008C11.9356 10.3445 10.8443 11.4357 9.49996 11.4357ZM9.49996 7.4082C8.62246 7.4082 7.90808 8.12258 7.90808 9.00008C7.90808 9.87758 8.62246 10.592 9.49996 10.592C10.3775 10.592 11.0918 9.87758 11.0918 9.00008C11.0918 8.12258 10.3775 7.4082 9.49996 7.4082Z' fill='%23292D32'/%3E%3Cpath d='M9.50004 14.0733C7.38504 14.0733 5.38817 12.8358 4.01567 10.687C3.41942 9.75891 3.41942 8.24578 4.01567 7.31203C5.39379 5.16328 7.39067 3.92578 9.50004 3.92578C11.6094 3.92578 13.6063 5.16328 14.9788 7.31203C15.575 8.24016 15.575 9.75328 14.9788 10.687C13.6063 12.8358 11.6094 14.0733 9.50004 14.0733ZM9.50004 4.76953C7.68317 4.76953 5.94504 5.86078 4.73004 7.76766C4.30817 8.42578 4.30817 9.57328 4.73004 10.2314C5.94504 12.1383 7.68317 13.2295 9.50004 13.2295C11.3169 13.2295 13.055 12.1383 14.27 10.2314C14.6919 9.57328 14.6919 8.42578 14.27 7.76766C13.055 5.86078 11.3169 4.76953 9.50004 4.76953Z' fill='%23292D32'/%3E%3C/svg%3E%0A");
+}
+.huongdan .home__panel__btn__txt:before {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  top: 4px;
+  background-image: url("data:image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.215 7.21484H9.2775C8.97 7.21484 8.715 6.95984 8.715 6.65234C8.715 6.34484 8.97 6.08984 9.2775 6.08984H13.215C13.5225 6.08984 13.7775 6.34484 13.7775 6.65234C13.7775 6.95984 13.53 7.21484 13.215 7.21484Z' fill='%235F5F5F'/%3E%3Cpath d='M5.34001 7.78523C5.19751 7.78523 5.05501 7.73273 4.94251 7.62023L4.38001 7.05773C4.16251 6.84023 4.16251 6.48023 4.38001 6.26273C4.59751 6.04523 4.95751 6.04523 5.17501 6.26273L5.34001 6.42773L6.63001 5.13773C6.84751 4.92023 7.20751 4.92023 7.42501 5.13773C7.64251 5.35523 7.64251 5.71523 7.42501 5.93273L5.73751 7.62023C5.63251 7.72523 5.49001 7.78523 5.34001 7.78523Z' fill='%235F5F5F'/%3E%3Cpath d='M13.215 12.4648H9.2775C8.97 12.4648 8.715 12.2098 8.715 11.9023C8.715 11.5948 8.97 11.3398 9.2775 11.3398H13.215C13.5225 11.3398 13.7775 11.5948 13.7775 11.9023C13.7775 12.2098 13.53 12.4648 13.215 12.4648Z' fill='%235F5F5F'/%3E%3Cpath d='M5.34001 13.0352C5.19751 13.0352 5.05501 12.9827 4.94251 12.8702L4.38001 12.3077C4.16251 12.0902 4.16251 11.7302 4.38001 11.5127C4.59751 11.2952 4.95751 11.2952 5.17501 11.5127L5.34001 11.6777L6.63001 10.3877C6.84751 10.1702 7.20751 10.1702 7.42501 10.3877C7.64251 10.6052 7.64251 10.9652 7.42501 11.1827L5.73751 12.8702C5.63251 12.9752 5.49001 13.0352 5.34001 13.0352Z' fill='%235F5F5F'/%3E%3Cpath d='M11.25 17.0625H6.75C2.6775 17.0625 0.9375 15.3225 0.9375 11.25V6.75C0.9375 2.6775 2.6775 0.9375 6.75 0.9375H11.25C15.3225 0.9375 17.0625 2.6775 17.0625 6.75V11.25C17.0625 15.3225 15.3225 17.0625 11.25 17.0625ZM6.75 2.0625C3.2925 2.0625 2.0625 3.2925 2.0625 6.75V11.25C2.0625 14.7075 3.2925 15.9375 6.75 15.9375H11.25C14.7075 15.9375 15.9375 14.7075 15.9375 11.25V6.75C15.9375 3.2925 14.7075 2.0625 11.25 2.0625H6.75Z' fill='%235F5F5F'/%3E%3C/svg%3E%0A");
+}
+.video .home__panel__btn__txt:before {
+  width: 10px;
+  height: 8px;
+  position: relative;
+  top: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='8' height='10' viewBox='0 0 8 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.2 3.41593C8.26667 4.11996 8.26667 5.88004 7.2 6.58407L2.4 9.75222C1.33333 10.4562 5.82479e-08 9.57621 1.19796e-07 8.16814L3.96764e-07 1.83186C4.58313e-07 0.423792 1.33333 -0.456246 2.4 0.247786L7.2 3.41593Z' fill='white'/%3E%3C/svg%3E%0A");
 }
 .home__panel1 {
   padding: 20px;
@@ -3652,5 +3675,106 @@ body {
   padding-top: 16px;
   margin-top: 16px;
   border-top: 1px solid #F2F2F2;
+}
+
+.duancanhan__box1 {
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.duancanhan__box1__overlay {
+  background: linear-gradient(88.71deg, #3F8AFB 0.9%, #4C52E9 100%);
+}
+.duancanhan__box1__content {
+  padding: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg width='300' height='138' viewBox='0 0 300 138' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_2605_162653)'%3E%3Cellipse cx='1.74479e-05' cy='163' rx='299' ry='300' transform='rotate(-90 1.74479e-05 163)' fill='%23C4DFFF' fill-opacity='0.2'/%3E%3Cellipse cx='0.000511437' cy='163' rx='168.424' ry='168.987' transform='rotate(-90 0.000511437 163)' fill='%23ABD1FE' fill-opacity='0.3'/%3E%3Cellipse opacity='0.4' cx='0.000317208' cy='163' rx='73.8038' ry='74.0506' transform='rotate(-90 0.000317208 163)' fill='%23B6D7FF' fill-opacity='0.5'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_2605_162653'%3E%3Crect width='598' height='300' fill='white' transform='translate(0 462) rotate(-90)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+.duancanhan__box1__title {
+  color: #FFFFFF;
+  line-height: 1.33;
+  font-family: "SF Compact Rounded Semibold", sans-serif;
+}
+.duancanhan__box1__labelStatus {
+  line-height: calc(26px - 2px);
+  background: #FFFFFF;
+  padding: 0 12px;
+  text-transform: inherit;
+}
+.duancanhan__box1__labelStatus span {
+  color: #3F95FB;
+  font-family: "SF Compact Rounded Medium", sans-serif;
+}
+.duancanhan__box2 {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(60px);
+          backdrop-filter: blur(60px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+  padding: 20px;
+}
+.duancanhan__box2__btn {
+  line-height: calc(30px - 2px);
+  padding: 0 10px;
+  text-transform: inherit;
+}
+.duancanhan__box2__btn span {
+  color: #F2F2F2;
+}
+.duancanhan__box2__txt1 {
+  color: #FFFFFF;
+  font-family: "SF Compact Rounded Semibold", sans-serif;
+}
+.duancanhan__box2__txt2 {
+  color: #FFFFFF;
+  font-family: "SF Compact Rounded Medium", sans-serif;
+}
+.duancanhan__box2__item16 {
+  padding: 20px;
+  background: #6FCF97;
+  border-radius: 16px;
+}
+.duancanhan__box2__item16:nth-child(n+2) {
+  margin-top: 16px;
+}
+.duancanhan__box2__item {
+  background: #F2F2F2;
+  border-radius: 16px;
+  padding: 16px;
+}
+.duancanhan__box2__item:nth-child(n+2) {
+  margin-top: 16px;
+}
+.duancanhan__box2__item__linkhuongdan {
+  color: #686868;
+  font-family: "SF Compact Rounded Medium", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.duancanhan__box2__item__linkhuongdan:before {
+  content: "";
+  position: relative;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-image: url("data:image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.215 7.21484H9.27747C8.96997 7.21484 8.71497 6.95984 8.71497 6.65234C8.71497 6.34484 8.96997 6.08984 9.27747 6.08984H13.215C13.5225 6.08984 13.7775 6.34484 13.7775 6.65234C13.7775 6.95984 13.53 7.21484 13.215 7.21484Z' fill='%23686868'/%3E%3Cpath d='M5.34004 7.78523C5.19754 7.78523 5.05504 7.73273 4.94254 7.62023L4.38004 7.05773C4.16254 6.84023 4.16254 6.48023 4.38004 6.26273C4.59754 6.04523 4.95754 6.04523 5.17504 6.26273L5.34004 6.42773L6.63004 5.13773C6.84754 4.92023 7.20754 4.92023 7.42504 5.13773C7.64254 5.35523 7.64254 5.71523 7.42504 5.93273L5.73754 7.62023C5.63254 7.72523 5.49004 7.78523 5.34004 7.78523Z' fill='%23686868'/%3E%3Cpath d='M13.215 12.4648H9.27747C8.96997 12.4648 8.71497 12.2098 8.71497 11.9023C8.71497 11.5948 8.96997 11.3398 9.27747 11.3398H13.215C13.5225 11.3398 13.7775 11.5948 13.7775 11.9023C13.7775 12.2098 13.53 12.4648 13.215 12.4648Z' fill='%23686868'/%3E%3Cpath d='M5.34004 13.0352C5.19754 13.0352 5.05504 12.9827 4.94254 12.8702L4.38004 12.3077C4.16254 12.0902 4.16254 11.7302 4.38004 11.5127C4.59754 11.2952 4.95754 11.2952 5.17504 11.5127L5.34004 11.6777L6.63004 10.3877C6.84754 10.1702 7.20754 10.1702 7.42504 10.3877C7.64254 10.6052 7.64254 10.9652 7.42504 11.1827L5.73754 12.8702C5.63254 12.9752 5.49004 13.0352 5.34004 13.0352Z' fill='%23686868'/%3E%3Cpath d='M11.25 17.0625H6.75C2.6775 17.0625 0.9375 15.3225 0.9375 11.25V6.75C0.9375 2.6775 2.6775 0.9375 6.75 0.9375H11.25C15.3225 0.9375 17.0625 2.6775 17.0625 6.75V11.25C17.0625 15.3225 15.3225 17.0625 11.25 17.0625ZM6.75 2.0625C3.2925 2.0625 2.0625 3.2925 2.0625 6.75V11.25C2.0625 14.7075 3.2925 15.9375 6.75 15.9375H11.25C14.7075 15.9375 15.9375 14.7075 15.9375 11.25V6.75C15.9375 3.2925 14.7075 2.0625 11.25 2.0625H6.75Z' fill='%23686868'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 5px;
+}
+.duancanhan__box2__item__txt {
+  color: #2B2B2C;
+  font-family: "SF Compact Rounded Semibold", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

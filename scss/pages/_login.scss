@@ -115,6 +115,10 @@
         @extend .fz-14;
         color: #FFFFFF;
       }
+      .dangkythemlichhoc__box4 &{
+        @extend .fz-14;
+        font-family: $SF-Compact-Rounded-Semibold;
+      }
     }
   }
   &__column{

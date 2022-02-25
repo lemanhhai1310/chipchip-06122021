@@ -1524,16 +1524,16 @@ body {
   margin-top: 50px;
 }
 
-.fz-12, .duancanhan__box1__labelStatus span, .bottom__offcanvas__image__txt, .modal__luyentap__txt2 {
+.fz-12, .dangkythemlichhoc__box4__tag, .dangkythemlichhoc__box4__txt1, .duancanhan__box1__labelStatus span, .bottom__offcanvas__image__txt, .modal__luyentap__txt2 {
   font-size: 12px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-12, .duancanhan__box1__labelStatus span, .bottom__offcanvas__image__txt, .modal__luyentap__txt2 {
+  .fz-12, .dangkythemlichhoc__box4__tag, .dangkythemlichhoc__box4__txt1, .duancanhan__box1__labelStatus span, .bottom__offcanvas__image__txt, .modal__luyentap__txt2 {
     font-size: calc(12px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-12, .duancanhan__box1__labelStatus span, .bottom__offcanvas__image__txt, .modal__luyentap__txt2 {
+  .fz-12, .dangkythemlichhoc__box4__tag, .dangkythemlichhoc__box4__txt1, .duancanhan__box1__labelStatus span, .bottom__offcanvas__image__txt, .modal__luyentap__txt2 {
     font-size: 12px !important;
   }
 }
@@ -1552,16 +1552,16 @@ body {
   }
 }
 
-.fz-14, .duancanhan__box2__item__linkhuongdan, .duancanhan__box2__txt2, .duancanhan__box2__btn span, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__panel__btnhuongdan span, .home__top__boxProgress__txt, .home__offcanvas__contact__note, .bottom__offcanvas__help__txt, .modal__quatang__label {
+.fz-14, .dangkythemlichhoc__box4__linkchitiet, .dangkythemlichhoc__box4__txt2, .dangkythemlichhoc__box3__btn, .dangkythemlichhoc__box1__txt2, .duancanhan__box2__item__linkhuongdan, .duancanhan__box2__txt2, .duancanhan__box2__btn span, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .dangkythemlichhoc__box4 .login__btn span, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__panel__btnhuongdan span, .home__top__boxProgress__txt, .home__offcanvas__contact__note, .bottom__offcanvas__help__txt, .modal__quatang__label {
   font-size: 14px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-14, .duancanhan__box2__item__linkhuongdan, .duancanhan__box2__txt2, .duancanhan__box2__btn span, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__panel__btnhuongdan span, .home__top__boxProgress__txt, .home__offcanvas__contact__note, .bottom__offcanvas__help__txt, .modal__quatang__label {
+  .fz-14, .dangkythemlichhoc__box4__linkchitiet, .dangkythemlichhoc__box4__txt2, .dangkythemlichhoc__box3__btn, .dangkythemlichhoc__box1__txt2, .duancanhan__box2__item__linkhuongdan, .duancanhan__box2__txt2, .duancanhan__box2__btn span, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .dangkythemlichhoc__box4 .login__btn span, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__panel__btnhuongdan span, .home__top__boxProgress__txt, .home__offcanvas__contact__note, .bottom__offcanvas__help__txt, .modal__quatang__label {
     font-size: calc(14px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-14, .duancanhan__box2__item__linkhuongdan, .duancanhan__box2__txt2, .duancanhan__box2__btn span, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__panel__btnhuongdan span, .home__top__boxProgress__txt, .home__offcanvas__contact__note, .bottom__offcanvas__help__txt, .modal__quatang__label {
+  .fz-14, .dangkythemlichhoc__box4__linkchitiet, .dangkythemlichhoc__box4__txt2, .dangkythemlichhoc__box3__btn, .dangkythemlichhoc__box1__txt2, .duancanhan__box2__item__linkhuongdan, .duancanhan__box2__txt2, .duancanhan__box2__btn span, .thanhtoan__tabContent__label, .muagoihoc__card__txt1, .muagoihoc__card__txt2, .muagoihoc__card__priceOld, .muagoihoc__card__label, .quatang__card__box2__txt, .chitietlophoc__boxVideo__signal, .dangkythemlichhoc__box4 .login__btn span, .muagoihoc__card .login__btn span, .login__dc1, .login__txt, .login__forgot, .login__label, .home__panel__btn__txt, .home__panel__step__item__txt, .home__panel__txt1, .home__panel__time, .home__panel__box__link, .home__panel__box__txt, .home__panel__countdown__dc, .home__panel__countdown .uk-countdown-number, .home__panel__countdown .uk-countdown-separator, .home__panel__btnhuongdan span, .home__top__boxProgress__txt, .home__offcanvas__contact__note, .bottom__offcanvas__help__txt, .modal__quatang__label {
     font-size: 14px !important;
   }
 }
@@ -1580,16 +1580,16 @@ body {
   }
 }
 
-.fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .bottom__box__txt, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label, .modal__luyentap__txt1 {
+.fz-16, .dangkythemlichhoc__search__input, .dangkythemlichhoc__box4__name, .dangkythemlichhoc__box2__txt, .dangkythemlichhoc__btn span, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .bottom__box__txt, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label, .modal__luyentap__txt1 {
   font-size: 16px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .bottom__box__txt, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label, .modal__luyentap__txt1 {
+  .fz-16, .dangkythemlichhoc__search__input, .dangkythemlichhoc__box4__name, .dangkythemlichhoc__box2__txt, .dangkythemlichhoc__btn span, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .bottom__box__txt, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label, .modal__luyentap__txt1 {
     font-size: calc(16px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-16, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .bottom__box__txt, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label, .modal__luyentap__txt1 {
+  .fz-16, .dangkythemlichhoc__search__input, .dangkythemlichhoc__box4__name, .dangkythemlichhoc__box2__txt, .dangkythemlichhoc__btn span, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .bottom__box__txt, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label, .modal__luyentap__txt1 {
     font-size: 16px !important;
   }
 }
@@ -1608,16 +1608,16 @@ body {
   }
 }
 
-.fz-20, .duancanhan__box2__item__txt, .duancanhan__box2__txt1, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
+.fz-20, .dangkythemlichhoc__box1__txt1, .duancanhan__box2__item__txt, .duancanhan__box2__txt1, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
   font-size: 16px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-20, .duancanhan__box2__item__txt, .duancanhan__box2__txt1, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
+  .fz-20, .dangkythemlichhoc__box1__txt1, .duancanhan__box2__item__txt, .duancanhan__box2__txt1, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
     font-size: calc(16px + 4 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-20, .duancanhan__box2__item__txt, .duancanhan__box2__txt1, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
+  .fz-20, .dangkythemlichhoc__box1__txt1, .duancanhan__box2__item__txt, .duancanhan__box2__txt1, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
     font-size: 20px !important;
   }
 }
@@ -3219,6 +3219,9 @@ body {
 .muagoihoc__card .login__btn span {
   color: #FFFFFF;
 }
+.dangkythemlichhoc__box4 .login__btn span {
+  font-family: "SF Compact Rounded Semibold", sans-serif;
+}
 .login__column.uk-grid-margin {
   margin-top: 24px;
 }
@@ -3776,5 +3779,201 @@ body {
 .duancanhan__box2__item__txt {
   color: #2B2B2C;
   font-family: "SF Compact Rounded Semibold", sans-serif;
+}
+
+.dangkythemlichhoc__card {
+  border-radius: 20px;
+  padding: 20px;
+}
+@media (min-width: 960px) {
+  .dangkythemlichhoc__card {
+    padding: 24px;
+  }
+}
+.dangkythemlichhoc__icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.dangkythemlichhoc__icon svg {
+  opacity: 0;
+}
+.dangkythemlichhoc__icon--right {
+  background-image: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='24' cy='24' r='20' fill='%232BBC13'/%3E%3Cg filter='url(%23filter0_d_2818_169953)'%3E%3Ccircle cx='24' cy='22' r='20' fill='%2366DB53'/%3E%3C/g%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M24.5858 27.5858C23.8047 28.3668 23.8047 29.6332 24.5858 30.4142C25.3668 31.1953 26.6332 31.1953 27.4142 30.4142L34.4142 23.4142C35.1953 22.6332 35.1953 21.3668 34.4142 20.5858L27.4142 13.5858C26.6332 12.8047 25.3668 12.8047 24.5858 13.5858C23.8047 14.3668 23.8047 15.6332 24.5858 16.4142L28.1795 20.0079C28.1204 20.0027 28.0605 20 28 20L14 20C12.8954 20 12 20.8954 12 22C12 23.1046 12.8954 24 14 24L28 24C28.0605 24 28.1204 23.9973 28.1795 23.9921L24.5858 27.5858ZM29.9921 22.1795L30.1716 22L29.9921 21.8205C29.9973 21.8796 30 21.9395 30 22C30 22.0605 29.9973 22.1204 29.9921 22.1795Z' fill='white'/%3E%3Cdefs%3E%3Cfilter id='filter0_d_2818_169953' x='0' y='0' width='48' height='48' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='2'/%3E%3CfeGaussianBlur stdDeviation='2'/%3E%3CfeComposite in2='hardAlpha' operator='out'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_2818_169953'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_2818_169953' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+.dangkythemlichhoc__icon--left {
+  background-image: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='24' cy='25' r='20' transform='rotate(-180 24 25)' fill='%232BBC13'/%3E%3Cg filter='url(%23filter0_d_2818_169943)'%3E%3Ccircle cx='24' cy='22' r='20' transform='rotate(-180 24 22)' fill='%2366DB53'/%3E%3C/g%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M23.4142 16.4142C24.1953 15.6332 24.1953 14.3668 23.4142 13.5858C22.6332 12.8047 21.3668 12.8047 20.5858 13.5858L13.5858 20.5858C12.8047 21.3668 12.8047 22.6332 13.5858 23.4142L20.5858 30.4142C21.3668 31.1953 22.6332 31.1953 23.4142 30.4142C24.1953 29.6332 24.1953 28.3668 23.4142 27.5858L19.8205 23.9921C19.8796 23.9973 19.9395 24 20 24L34 24C35.1046 24 36 23.1046 36 22C36 20.8954 35.1046 20 34 20L20 20C19.9395 20 19.8796 20.0027 19.8205 20.0079L23.4142 16.4142ZM18.0079 21.8205L17.8284 22L18.0079 22.1795C18.0027 22.1204 18 22.0605 18 22C18 21.9395 18.0027 21.8796 18.0079 21.8205Z' fill='white'/%3E%3Cdefs%3E%3Cfilter id='filter0_d_2818_169943' x='0' y='0' width='48' height='48' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='2'/%3E%3CfeGaussianBlur stdDeviation='2'/%3E%3CfeComposite in2='hardAlpha' operator='out'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_2818_169943'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_2818_169943' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+.dangkythemlichhoc__box1 {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  min-height: 60px;
+}
+.dangkythemlichhoc__box1.uk-active {
+  background: #F4F4F4;
+}
+.dangkythemlichhoc__box1__txt1 {
+  color: #4B4B4B;
+  line-height: 1.2;
+  font-family: "SF Compact Rounded Semibold", sans-serif;
+}
+.dangkythemlichhoc__box1__txt2 {
+  color: #4B4B4B;
+  line-height: 1.29;
+  font-family: "SF Compact Rounded Medium", sans-serif;
+}
+.dangkythemlichhoc__radio {
+  display: none;
+}
+.dangkythemlichhoc__btn {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-transform: inherit;
+  color: #686868;
+}
+.dangkythemlichhoc__btn.uk-active {
+  background: #2BBC13;
+  border-color: #2BBC13;
+  color: #FFFFFF;
+  -webkit-box-shadow: inset 0px -2px 12px rgba(0, 100, 65, 0.3);
+          box-shadow: inset 0px -2px 12px rgba(0, 100, 65, 0.3);
+}
+.dangkythemlichhoc__btn span {
+  font-family: "SF Compact Rounded Semibold", sans-serif;
+}
+.dangkythemlichhoc__box3 {
+  padding: 5px;
+  background-color: #fff;
+}
+.dangkythemlichhoc__box3__li:nth-child(n+2) {
+  position: relative;
+}
+.dangkythemlichhoc__box3__li:nth-child(n+2):before {
+  content: "";
+  width: 50px;
+  border-top: 1px dashed #6FCF97;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0px;
+}
+.dangkythemlichhoc__box3__btn {
+  position: relative;
+  text-transform: inherit;
+  color: #686868;
+  background: #F6F6F6 !important;
+  border-color: #F6F6F6 !important;
+  padding: 0 12px;
+  line-height: calc(42px - 2px);
+}
+.uk-active > .dangkythemlichhoc__box3__btn {
+  color: #2B2B2C;
+  font-family: "SF Compact Rounded Semibold", sans-serif;
+}
+.finish > .dangkythemlichhoc__box3__btn {
+  color: #2B2B2C;
+}
+.dangkythemlichhoc__box2 {
+  border: 1px solid #DBDBDB;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  min-height: 48px;
+  cursor: pointer;
+}
+.dangkythemlichhoc__radio:disabled ~ .dangkythemlichhoc__box2 {
+  opacity: 0.3;
+  /* Black 500 */
+  border: 1px solid #DBDBDB;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  cursor: not-allowed;
+}
+.dangkythemlichhoc__radio:checked ~ .dangkythemlichhoc__box2 {
+  background: #FFCB14;
+  border-color: #FFCB14;
+}
+.dangkythemlichhoc__box2__txt {
+  color: #2B2B2C;
+  line-height: 1.25;
+  font-family: "SF Compact Rounded Medium", sans-serif;
+}
+.dangkythemlichhoc__box4 {
+  background: #FFFFFF;
+  /* Black 500 */
+  border: 1px solid #DBDBDB;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 14px;
+  min-height: 228px;
+  padding: 20px;
+}
+.dangkythemlichhoc__box4__rate {
+  margin-bottom: 5px;
+}
+.dangkythemlichhoc__box4__rate__icon {
+  width: 14px;
+  height: 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='13' viewBox='0 0 14 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.55163 0.908494C6.73504 0.536871 7.26496 0.53687 7.44837 0.908493L8.94091 3.93272C9.01374 4.08029 9.15453 4.18258 9.31738 4.20624L12.6548 4.6912C13.0649 4.75079 13.2287 5.25478 12.9319 5.54404L10.5169 7.89808C10.3991 8.01294 10.3453 8.17844 10.3731 8.34064L10.9432 11.6646C11.0133 12.073 10.5846 12.3845 10.2178 12.1917L7.23267 10.6223C7.08701 10.5457 6.91299 10.5457 6.76733 10.6223L3.78224 12.1917C3.41543 12.3845 2.98671 12.073 3.05676 11.6646L3.62687 8.34064C3.65468 8.17844 3.60091 8.01294 3.48307 7.89808L1.06808 5.54404C0.771321 5.25478 0.935076 4.75079 1.34519 4.6912L4.68262 4.20624C4.84547 4.18258 4.98626 4.08029 5.05909 3.93272L6.55163 0.908494Z' fill='%23FFCD1A'/%3E%3C/svg%3E%0A");
+}
+.dangkythemlichhoc__box4__name {
+  color: #2B2B2C;
+  font-family: "SF Compact Rounded Semibold", sans-serif;
+}
+.dangkythemlichhoc__box4__txt1 {
+  color: #2B2B2C;
+}
+.dangkythemlichhoc__box4__txt2 {
+  color: #2B2B2C;
+}
+.dangkythemlichhoc__box4__tag {
+  text-transform: inherit;
+  background: #F4F4F4;
+  border-color: #F4F4F4;
+  color: #4B4B4B;
+  font-family: "SF Compact Rounded Medium", sans-serif;
+  line-height: calc(22px - 2px);
+  padding: 0 8px;
+}
+.dangkythemlichhoc__box4__linkchitiet {
+  color: #3F95FB;
+  font-family: "SF Compact Rounded Medium", sans-serif;
+}
+.dangkythemlichhoc__search__icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 20.75C5.62 20.75 1.25 16.38 1.25 11C1.25 5.62 5.62 1.25 11 1.25C16.38 1.25 20.75 5.62 20.75 11C20.75 16.38 16.38 20.75 11 20.75ZM11 2.75C6.45 2.75 2.75 6.45 2.75 11C2.75 15.55 6.45 19.25 11 19.25C15.55 19.25 19.25 15.55 19.25 11C19.25 6.45 15.55 2.75 11 2.75Z' fill='%23686868'/%3E%3Cpath d='M20.16 22.79C20.08 22.79 20 22.78 19.93 22.77C19.46 22.71 18.61 22.39 18.13 20.96C17.88 20.21 17.97 19.46 18.38 18.89C18.79 18.32 19.48 18 20.27 18C21.29 18 22.09 18.39 22.45 19.08C22.81 19.77 22.71 20.65 22.14 21.5C21.43 22.57 20.66 22.79 20.16 22.79ZM19.56 20.49C19.73 21.01 19.97 21.27 20.13 21.29C20.29 21.31 20.59 21.12 20.9 20.67C21.19 20.24 21.21 19.93 21.14 19.79C21.07 19.65 20.79 19.5 20.27 19.5C19.96 19.5 19.73 19.6 19.6 19.77C19.48 19.94 19.46 20.2 19.56 20.49Z' fill='%23686868'/%3E%3C/svg%3E%0A");
+}
+.dangkythemlichhoc__search__icon svg {
+  opacity: 0;
+}
+.dangkythemlichhoc__search__input {
+  background: #F7F7F7;
+  border: 1px solid #F2F2F2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  height: 48px !important;
+  color: #878787;
+  font-family: "SF Compact Rounded Regular", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

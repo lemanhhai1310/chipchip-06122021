@@ -111,6 +111,9 @@
       @extend .login__dc3;
       position: relative;
       top: -2px;
+      .dangkythemlichhoc__modal &{
+        @extend .fz-14;
+      }
       .muagoihoc__card &{
         @extend .fz-14;
         color: #FFFFFF;

@@ -284,6 +284,6 @@
     <!--/Quà tặng/notify chúc mừng-->
 
 <script>
-    UIkit.modal('#modal-close-outside-quatangsuccess').show();
+    UIkit.modal('#modal-close-outside-quatangchitiet').show();
 </script>
 <?php require "template-parts/layouts/footer.php"; ?>

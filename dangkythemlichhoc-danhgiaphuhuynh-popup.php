@@ -142,9 +142,9 @@
                     </div>
                 </div>
             </div>
-            <div class="uk-margin-top">
+            <div class="uk-margin-top" uk-overflow-auto>
                 <div class="uk-child-width-1-2 uk-grid-10" uk-grid>
-                    <?php for ($i=1;$i<=4;$i++): ?>
+                    <?php for ($i=1;$i<=18;$i++): ?>
                     <div>
                         <div class="uk-padding-small dangkythemlichhoc__chitietgiaovien__box1">
                             <div class="home__item6">

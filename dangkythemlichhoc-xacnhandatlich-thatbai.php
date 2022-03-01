@@ -1,4 +1,4 @@
-<?php $data["title"] = "Đăng ký lịch học - xac nhan dat lich popup"; ?>
+<?php $data["title"] = "Đăng ký lịch học - xac nhan dat lich popup -thatbai"; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <nav class="thanhtoan__navbarNav uk-navbar-container uk-background-default" uk-navbar>
     <div class="uk-navbar-left">
@@ -122,57 +122,36 @@
         </div>
     </div>
 </div>
-<div id="modal-close-outside-xacnhandatlich" class="modal dangkythemlichhoc__modal uk-flex-top" uk-modal>
+<div id="modal-close-outside-xacnhandatlich-thatbai" class="modal dangkythemlichhoc__modal uk-flex-top" uk-modal>
     <div class="uk-modal-dialog uk-modal-dialog-m380 modal__body1 uk-modal-body uk-margin-auto-vertical">
         <button class="uk-modal-close-outside modal__close" type="button" uk-close></button>
-        <div>
+        <div class="uk-text-center">
             <div class="uk-margin">
-                <div class="dangkythemlichhoc__modal__title">Xác nhận đặt lịch</div>
+                <div class="dangkythemlichhoc__modal__titlerror">Đặt lịch học thất bại.</div>
             </div>
             <div class="uk-margin">
-                <div class="uk-grid-10 uk-child-width-1-2 uk-grid-match" uk-grid>
-                    <div class="uk-width-1-1">
-                        <div class="uk-text-center uk-padding-small dangkythemlichhoc__modal__box1">
-                            <span class="dangkythemlichhoc__modal__txt">8:30AM | Thứ 7 19/02/2022</span>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-padding-small uk-text-center dangkythemlichhoc__modal__box1">
-                            <div class="uk-margin-small">
-                                <div class="uk-cover-container uk-border-circle uk-margin-auto uk-flex-inline">
-                                    <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover="">
-                                    <canvas width="48" height="48"></canvas>
-                                </div>
-                            </div>
-                            <div class="uk-margin-small-top">
-                                <div class="dangkythemlichhoc__modal__txt1">Học sinh</div>
-                                <div class="dangkythemlichhoc__modal__txt2">Vũ Khắc Minh</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-padding-small uk-text-center dangkythemlichhoc__modal__box1">
-                            <div class="uk-margin-small">
-                                <div class="uk-cover-container uk-border-circle uk-margin-auto uk-flex-inline">
-                                    <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover="">
-                                    <canvas width="48" height="48"></canvas>
-                                </div>
-                            </div>
-                            <div class="uk-margin-small-top">
-                                <div class="dangkythemlichhoc__modal__txt1">Giáo viên</div>
-                                <div class="dangkythemlichhoc__modal__txt2">Thầy Edward</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <img src="images/congrats-thatbai.png" alt="">
+            </div>
+            <div class="uk-margin">
+                <div class="dangkythemlichhoc__modal__desc">Số lượng buổi học còn lại của bạn đã hết.
+                    Vui lòng thanh toán gói học mới để tiếp tục</div>
             </div>
             <div class="uk-margin-top">
-                <a href="" class="login__btn uk-button uk-button-primary uk-width-1-1 uk-border-pill"><span>Xác nhận đặt lịch</span></a>
+                <div class="uk-child-width-1-2@m uk-grid-10" uk-grid>
+                    <div>
+                        <button type="button" class="dangkythemlichhoc__modal__btn home__panel__btn home__panel__btn__default uk-width-1-1 uk-button uk-button-default uk-border-pill">
+                            <span class="home__panel__btn__txt">Liên hệ ChipChip</span>
+                        </button>
+                    </div>
+                    <div>
+                        <a href="" class="login__btn uk-button uk-button-primary uk-width-1-1 uk-border-pill"><span>Mua gói học</span></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 <script>
-    UIkit.modal('#modal-close-outside-xacnhandatlich').show();
+    UIkit.modal('#modal-close-outside-xacnhandatlich-thatbai').show();
 </script>
 <?php require "template-parts/layouts/footer.php"; ?>

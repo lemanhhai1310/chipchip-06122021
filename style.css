@@ -1580,16 +1580,16 @@ body {
   }
 }
 
-.fz-16, .dangkythemlichhoc__search__input, .dangkythemlichhoc__box4__name, .dangkythemlichhoc__box2__txt, .dangkythemlichhoc__btn span, .dangkythemlichhoc__modal__txt, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .bottom__box__txt, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label, .modal__luyentap__txt1 {
+.fz-16, .dangkythemlichhoc__search__input, .dangkythemlichhoc__box4__name, .dangkythemlichhoc__box2__txt, .dangkythemlichhoc__btn span, .dangkythemlichhoc__modal__txt, .dangkythemlichhoc__modal__desc, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .bottom__box__txt, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label, .modal__luyentap__txt1 {
   font-size: 16px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-16, .dangkythemlichhoc__search__input, .dangkythemlichhoc__box4__name, .dangkythemlichhoc__box2__txt, .dangkythemlichhoc__btn span, .dangkythemlichhoc__modal__txt, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .bottom__box__txt, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label, .modal__luyentap__txt1 {
+  .fz-16, .dangkythemlichhoc__search__input, .dangkythemlichhoc__box4__name, .dangkythemlichhoc__box2__txt, .dangkythemlichhoc__btn span, .dangkythemlichhoc__modal__txt, .dangkythemlichhoc__modal__desc, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .bottom__box__txt, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label, .modal__luyentap__txt1 {
     font-size: calc(16px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-16, .dangkythemlichhoc__search__input, .dangkythemlichhoc__box4__name, .dangkythemlichhoc__box2__txt, .dangkythemlichhoc__btn span, .dangkythemlichhoc__modal__txt, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .bottom__box__txt, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label, .modal__luyentap__txt1 {
+  .fz-16, .dangkythemlichhoc__search__input, .dangkythemlichhoc__box4__name, .dangkythemlichhoc__box2__txt, .dangkythemlichhoc__btn span, .dangkythemlichhoc__modal__txt, .dangkythemlichhoc__modal__desc, .thanhtoan__card__txt1, .thanhtoan__txtLabel, .thanhtoan__desc, .thanhtoan__tabContent__txt, .muagoihoc__card__tag span, .quatang__card__box1__title, .quatang__card__boxTab__btn span, .chitietlophoc__boxVideo__name, .chitietlophoc__card__txt, .chitietlophoc__card__unit, .login__dc5, .signup__btnSelect, .login__input, .home__panel1__txt1, .home__panel__name, .home__panel__tag span, .home__offcanvas__tab__txt, .home__offcanvas__accordion__content, .home__offcanvas__accordion__title span, .bottom__offcanvas__input, .bottom__offcanvas__chat__content > *, .bottom__offcanvas__help__btnSelect, .bottom__offcanvas__help__box1, .bottom__box__txt, .modal__box2__card .modal__boxProfile__txt, .modal__box3__txt1, .modal__box3__txt, .modal__box3__step, .modal__desc, .modal__txt1, .modal__list li, .modal__ketquadanhgia__accordion__content, .modal__quatang__desc, .modal__xacnhandiadiem__textarea, .modal__xacnhandiadiem__label, .modal__luyentap__txt1 {
     font-size: 16px !important;
   }
 }
@@ -1608,16 +1608,16 @@ body {
   }
 }
 
-.fz-20, .dangkythemlichhoc__box1__txt1, .dangkythemlichhoc__modal__title, .duancanhan__box2__item__txt, .duancanhan__box2__txt1, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
+.fz-20, .dangkythemlichhoc__box1__txt1, .dangkythemlichhoc__modal__title, .dangkythemlichhoc__modal__titlerror, .duancanhan__box2__item__txt, .duancanhan__box2__txt1, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
   font-size: 16px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-20, .dangkythemlichhoc__box1__txt1, .dangkythemlichhoc__modal__title, .duancanhan__box2__item__txt, .duancanhan__box2__txt1, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
+  .fz-20, .dangkythemlichhoc__box1__txt1, .dangkythemlichhoc__modal__title, .dangkythemlichhoc__modal__titlerror, .duancanhan__box2__item__txt, .duancanhan__box2__txt1, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
     font-size: calc(16px + 4 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-20, .dangkythemlichhoc__box1__txt1, .dangkythemlichhoc__modal__title, .duancanhan__box2__item__txt, .duancanhan__box2__txt1, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
+  .fz-20, .dangkythemlichhoc__box1__txt1, .dangkythemlichhoc__modal__title, .dangkythemlichhoc__modal__titlerror, .duancanhan__box2__item__txt, .duancanhan__box2__txt1, .thanhtoan__card__title, .thanhtoan__btn span, .muagoihoc__card__name, .chitietlophoc__card__title, .login__btn span, .home__panel__title, .modal__btnChange__txt, .modal__ketquadanhgia__accordion__title span, .modal__ketquadanhgia__label span, .modal__quatang__rate span, .modal__quatang__title {
     font-size: 20px !important;
   }
 }
@@ -3784,6 +3784,21 @@ body {
   font-family: "SF Compact Rounded Semibold", sans-serif;
 }
 
+.dangkythemlichhoc__modal__titlerror {
+  color: #EB5757;
+  font-family: "SF Compact Rounded Semibold", sans-serif;
+}
+.dangkythemlichhoc__modal__desc {
+  color: #4B4B4B;
+  font-family: "SF Compact Rounded Medium", sans-serif;
+}
+.dangkythemlichhoc__modal__btn {
+  line-height: calc(48px - 2px);
+  background: #F9F9F9;
+}
+.dangkythemlichhoc__modal__btn:before {
+  background: #F9F9F9;
+}
 .dangkythemlichhoc__modal__title {
   color: #2B2B2C;
   font-family: "SF Compact Rounded Semibold", sans-serif;

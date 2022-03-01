@@ -1,4 +1,68 @@
 .dangkythemlichhoc{
+  &__chitietgiaovien{
+    &__title{
+      color: #4B4B4B;
+      @extend .fz-24;
+      font-family: $SF-Compact-Rounded-Semibold;
+    }
+    &__box{
+      background: #FFECDB;
+      border-radius: 6px;
+      color: #2B2B2C;
+      @extend .fz-14;
+      font-family: $SF-Compact-Rounded-Medium;
+      padding: 5px 10px;
+    }
+    &__box1{
+      background: #F6F6F6;
+      border-radius: 10px;
+      &__txt1{
+        color: #4B4B4B;
+        @extend .fz-12;
+        font-family: $SF-Compact-Rounded-Medium;
+      }
+      &__txt2{
+        color: #6FCF97;
+        @extend .fz-16;
+        font-family: $SF-Compact-Rounded-Semibold;
+      }
+    }
+    &__label{
+      color: #000000;
+      @extend .fz-18;
+      font-family: $SF-Compact-Rounded-Medium;
+    }
+    &__desc{
+      color: #2B2B2C;
+      @extend .fz-16;
+      font-family: $SF-Compact-Rounded-Regular;
+    }
+    &__box2{
+      margin-right: -24px;
+      &__label{
+        background: #F6F6F6;
+        color: #000;
+        @extend .fz-14;
+        font-family: $SF-Compact-Rounded-Semibold;
+        min-height: 26px;
+        display: inline-flex;
+        align-items: center;
+      }
+      &__grid{
+        width: max-content;
+      }
+    }
+    &__btn1{
+      $x:48px;
+      line-height: calc(#{$x} - 2px);
+      color: #66DB53;
+      @extend .fz-18;
+      font-family: $SF-Compact-Rounded-Medium;
+      background: #F6F6F6;
+      border-radius: 10px;
+      text-transform: inherit;
+    }
+  }
   &__modal{
     &__titlerror{
       color: #EB5757;
